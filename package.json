@@ -1,0 +1,14 @@
+{
+  "name": "crankshaft-nodejs",
+  "version": "1.0.0",
+  "dependencies": {
+    "bluetooth-serial-port": "^3.0.2",
+    "dbus-next": "^0.9.0",
+    "protobufjs": "^7.2.3",
+    "serialport": "^13.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  }
+}

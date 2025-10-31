@@ -1,0 +1,699 @@
+[2025-10-28 16:03:44.702446] [0x00007f5047e3b980] [info]    [OpenAuto] [AutoApp] Screen name: DP-2
+[2025-10-28 16:03:44.702479] [0x00007f5047e3b980] [info]    [OpenAuto] [AutoApp] Screen geometry: 1920
+[2025-10-28 16:03:44.702496] [0x00007f5047e3b980] [info]    [OpenAuto] [AutoApp] Screen physical size: 540
+[2025-10-28 16:03:44.702502] [0x00007f5047e3b980] [info]    [OpenAuto] [AutoApp] Using gemoetry from primary screen.
+[2025-10-28 16:03:44.702507] [0x00007f5047e3b980] [info]    [OpenAuto] [AutoApp] Display width: 1920
+[2025-10-28 16:03:44.702511] [0x00007f5047e3b980] [info]    [OpenAuto] [AutoApp] Display height: 1080
+[2025-10-28 16:03:44.718666] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] unable to open cs param file (/boot/crankshaft/crankshaft_env.sh)
+[2025-10-28 16:03:44.718678] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] Fallback to /opt/crankshaft/crankshaft_default_env.sh)
+[2025-10-28 16:03:44.718688] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] unable to open cs param file (/boot/crankshaft/crankshaft_env.sh)
+[2025-10-28 16:03:44.718691] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] Fallback to /opt/crankshaft/crankshaft_default_env.sh)
+[2025-10-28 16:03:44.718709] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] unable to open cs param file (/boot/crankshaft/crankshaft_env.sh)
+[2025-10-28 16:03:44.718713] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] Fallback to /opt/crankshaft/crankshaft_default_env.sh)
+[2025-10-28 16:03:44.718719] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] unable to open cs param file (/boot/crankshaft/crankshaft_env.sh)
+[2025-10-28 16:03:44.718722] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] Fallback to /opt/crankshaft/crankshaft_default_env.sh)
+[2025-10-28 16:03:44.750400] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] unable to open cs param file (/boot/crankshaft/crankshaft_env.sh)
+[2025-10-28 16:03:44.750413] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] Fallback to /opt/crankshaft/crankshaft_default_env.sh)
+[2025-10-28 16:03:44.750422] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] unable to open cs param file (/boot/crankshaft/crankshaft_env.sh)
+[2025-10-28 16:03:44.750425] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] Fallback to /opt/crankshaft/crankshaft_default_env.sh)
+[2025-10-28 16:03:44.750479] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] unable to open cs param file (/boot/crankshaft/crankshaft_env.sh)
+[2025-10-28 16:03:44.750486] [0x00007f5047e3b980] [warning] [OpenAuto] [Configuration] Fallback to /opt/crankshaft/crankshaft_default_env.sh)
+[2025-10-28 16:03:44.755634] [0x00007f5047e3b980] [warning] [OpenAuto] [RecentAddressesList] failed to read configuration file: openauto_wifi_recent.ini, error: openauto_wifi_recent.ini: cannot open file. Empty list will be used.
+[2025-10-28 16:03:44.831246] [0x00007f50417f86c0] [info]    [OpenAuto] [App] Waiting for device...
+[2025-10-28 16:03:54.937281] [0x00007f50417f86c0] [info]    [OpenAuto] startServerSocket() - Listening for WIFI Clients on Port 5001
+[2025-10-28 16:03:55.060218] [0x00007f5040ff76c0] [info]    [OpenAuto] [App] Devices enumeration result: false
+[2025-10-28 16:03:59.351429] [0x00007f50427fa6c0] [info]    [OpenAuto] handleNewClient() - Handle WIFI Client Connection
+[2025-10-28 16:03:59.351448] [0x00007f50427fa6c0] [info]    [OpenAuto] Start from socket
+[2025-10-28 16:03:59.353678] [0x00007f50427fa6c0] [info]    [OpenAuto] [ServiceFactory] create()
+[2025-10-28 16:03:59.353690] [0x00007f50427fa6c0] [info]    [OpenAuto] [ServiceFactory] createMediaSinkServices()
+[2025-10-28 16:03:59.353694] [0x00007f50427fa6c0] [info]    [OpenAuto] [ServiceFactory] Media Audio Channel enabled
+[2025-10-28 16:03:59.353766] [0x00007f5047e3b980] [info]    [OpenAuto] [QtAudioOutput] createAudioOutput()
+[2025-10-28 16:03:59.354567] [0x00007f50427fa6c0] [info]    [OpenAuto] [ServiceFactory] Guidance Audio Channel enabled
+[2025-10-28 16:03:59.354589] [0x00007f5047e3b980] [info]    [OpenAuto] [QtAudioOutput] createAudioOutput()
+[2025-10-28 16:03:59.354624] [0x00007f50427fa6c0] [info]    [OpenAuto] [ServiceFactory] System Audio Channel enabled
+[2025-10-28 16:03:59.354648] [0x00007f5047e3b980] [info]    [OpenAuto] [QtAudioOutput] createAudioOutput()
+[2025-10-28 16:03:59.354685] [0x00007f5047e3b980] [info]    [OpenAuto] [QtVideoOutput] createVideoOutput()
+[2025-10-28 16:03:59.406598] [0x00007f50427fa6c0] [info]    [OpenAuto] [ServiceFactory] Video Channel enabled
+[2025-10-28 16:03:59.406640] [0x00007f50427fa6c0] [info]    [OpenAuto] [ServiceFactory] createMediaSourceServices()
+[2025-10-28 16:03:59.406668] [0x00007f5047e3b980] [info]    [OpenAuto] [AudioInput] createAudioInput()
+[2025-10-28 16:03:59.406707] [0x00007f50427fa6c0] [info]    [OpenAuto] [ServiceFactory] createSensorService()
+[2025-10-28 16:03:59.406740] [0x00007f50427fa6c0] [info]    [OpenAuto] [ServiceFactory] createInputService()
+[2025-10-28 16:03:59.406746] [0x00007f50427fa6c0] [info]    [OpenAuto] [ServiceFactory] Resolution 1920x1080
+[2025-10-28 16:03:59.406760] [0x00007f50427fa6c0] [info]    [OpenAuto] [ServiceFactory] createBluetoothService()
+[2025-10-28 16:03:59.406766] [0x00007f50427fa6c0] [debug]   [OpenAuto] [ServiceFactory] Using Dummy Bluetooth
+[2025-10-28 16:03:59.406793] [0x00007f50427fa6c0] [info]    [OpenAuto] [AndroidAutoEntity] start()
+[2025-10-28 16:03:59.406802] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] start()
+[2025-10-28 16:03:59.406807] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel MEDIA_SINK_MEDIA_AUDIO
+[2025-10-28 16:03:59.407540] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] start()
+[2025-10-28 16:03:59.407548] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel MEDIA_SINK_GUIDANCE_AUDIO
+[2025-10-28 16:03:59.407576] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] start()
+[2025-10-28 16:03:59.407584] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel MEDIA_SINK_SYSTEM_AUDIO
+[2025-10-28 16:03:59.407599] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] start()
+[2025-10-28 16:03:59.407603] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] Channel MEDIA_SINK_VIDEO
+[2025-10-28 16:03:59.407656] [0x00007f50427fa6c0] [info]    [OpenAuto] [MediaSourceService] start()
+[2025-10-28 16:03:59.407909] [0x00007f50427fa6c0] [warning] [OpenAuto] [SensorService] can't connect to GPSD.
+[2025-10-28 16:03:59.407919] [0x00007f50427fa6c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:03:59.407931] [0x00007f50427fa6c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:03:59.407936] [0x00007f50427fa6c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:03:59.407958] [0x00007f50427fa6c0] [info]    [OpenAuto] [SensorService] start()
+[2025-10-28 16:03:59.408023] [0x00007f50427fa6c0] [info]    [OpenAuto] [InputSourceService] start()
+[2025-10-28 16:03:59.408079] [0x00007f50427fa6c0] [info]    [OpenAuto] [BluetoothService] start()
+[2025-10-28 16:03:59.408131] [0x00007f50427fa6c0] [debug]   [OpenAuto] [AndroidAutoEntity] Send Version Request.
+2025-10-28 16:03:59.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 01 00 01 00 06 
+2025-10-28 16:03:59.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:03:59.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 0
+2025-10-28 16:03:59.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 00 03 00 06 00 01 00 01 00 06 
+2025-10-28 16:03:59.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 10
+2025-10-28 16:03:59.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 00 03 00 06 00 01 00 01 00 06 
+2025-10-28 16:03:59.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 10
+[2025-10-28 16:03:59.657993] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:03:59.658024] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:03:59.908091] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:03:59.908108] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+2025-10-28 16:03:59.913 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [ControlServiceChannel] Handling Version - Major: 256 Minor: 1792Status: 0
+[2025-10-28 16:03:59.913107] [0x00007f50417f86c0] [info]    [OpenAuto] [AndroidAutoEntity] onVersionResponse()
+[2025-10-28 16:03:59.913120] [0x00007f50417f86c0] [info]    [OpenAuto] [AndroidAutoEntity] Version Received: 256.1792, with status: 0
+[2025-10-28 16:03:59.913124] [0x00007f50417f86c0] [debug]   [OpenAuto] [AndroidAutoEntity] Version matches.
+[2025-10-28 16:03:59.913127] [0x00007f50417f86c0] [info]    [OpenAuto] [AndroidAutoEntity] Beginning SSL handshake.
+2025-10-28 16:03:59.913 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 03 16 03 01 05 f8 01 00 05 f4 03 03 1a 57 41 54 92 99 f4 27 eb 0d cd 89 0a 58 05 30 e0 4d ee 53 84 48 21 24 1f 89 a8 ae f2 8f 95 1b 20 ee f5 68 5b 31 b3 94 57 35 0f a7 86 6a cc 99 5b c5 52 66 3f db ed 20 1e d0 54 69 26 70 f3 63 bb 00 3c 13 02 13 03 13 01 c0 2c c0 30 00 9f cc a9 cc a8 cc aa c0 2b c0 2f 00 9e c0 24 c0 28 00 6b c0 23 c0 27 00 67 c0 0a c0 14 00 39 c0 09 c0 13 00 33 00 9d 00 9c 00 3d 00 3c 00 35 00 2f 01 00 05 6f ff 01 00 01 00 00 0b 00 04 03 00 01 02 00 0a 00 12 00 10 11 ec 00 1d 00 17 00 1e 00 18 00 19 01 00 01 01 00 23 00 00 00 16 00 00 00 17 00 00 00 0d 00 36 00 34 09 05 09 06 09 04 04 03 05 03 06 03 08 07 08 08 08 1a 08 1b 08 1c 08 09 08 0a 08 0b 08 04 08 05 08 06 04 01 05 01 06 01 03 03 03 01 03 02 04 02 05 02 06 02 00 2b 00 05 04 03 04 03 03 00 2d 00 02 01 01 00 33 04 ea 04 e8 11 ec 04 c0 d9 94 cd 0c 66 5d 07 17 6b 98 03 44 9d 06 59 e6 66 87 fd d5 b0 3c b6 8f 1c e7 c1 4b 20 50 49 35 6c 0f b4 af 95 e3 38 a2 ba 26 a7 20 3f 5a 10 0b 91 89 7c b0 e1 27 27 45 2c 93 a8 bc 24 56 53 1b 77 7e 79 b6 42 2c 38 62 60 51 56 68 d4 10 6c b7 0d f4 69 1e c0 b4 1b 08 66 ad ce 7a 81 00 60 99 5a 6a 4f 6c d6 46 84 48 2b 84 dc 09 c1 07 cb 20 96 6b f4 f6 50 c1 8a 73 fd 81 aa 3f f0 38 91 00 86 b2 c4 88 9c 40 24 88 16 30 91 08 31 ef 66 b3 61 6c 2a e9 68 b9 7c 26 05 79 05 5e 2f a5 cf 0c dc 36 a0 26 70 2f 98 73 02 c3 a0 f2 e3 38 3a 2c 6e 49 77 a2 87 76 98 2d 47 c4 4d 17 10 28 90 ac 8b 7b cb b1 6a 77 90 9c 8f 54 12 7f 28 13 9e 9c 62 80 f4 fb a8 9e 86 0e 0c d9 9f 85 61 08 be 2c cf 8c e9 78 8c a0 32 83 39 13 37 68 36 96 60 8d 52 89 70 2e aa ac 40 0a b2 c6 17 45 9d d0 25 87 d2 cd 84 80 1e 66 aa 8a 6e ca 20 b8 db 25 39 19 56 28 aa 52 59 f5 8b 45 56 80 8b 29 5c 2f e9 3f 08 d1 3d b5 17 03 c9 3c a2 cb c0 30 70 f6 0e ef a3 52 d5 ea 4c 5c 2b 8e e9 a3 a6 50 96 97 08 4a c0 ef 31 2a a3 25 79 21 38 0f 8f 65 cf e5 2a 45 e0 e9 00 6f c0 7a 4a a5 7d 6a 12 42 fc c8 51 99 81 0e 78 58 97 64 09 3f db b7 68 3e ac bb 29 aa 88 0a bc 99 28 65 42 8f 34 c0 fd 4a 16 40 37 1d d9 86 64 63 22 b4 ce f8 4e b3 79 2d cc 1c 31 2e a1 9f 8d b5 cb f4 55 1a 85 32 06 04 55 c9 2a ba 0d 35 c9 89 98 f3 9a 63 08 a8 47 3b 44 a7 3c 82 89 91 7b 61 65 a2 47 e3 91 3f 50 c3 ea 53 aa b1 ec 74 1f 57 2d 1e 96 99 9f 58 83 c6 57 8e 0e 9a 0f f3 c6 5c c3 cb a7 53 b6 02 5d a0 43 18 71 39 2d 3b 1d 58 55 95 80 f3 9f be 62 4d 4c a9 2f 0b 12 70 86 75 81 a0 66 6b 31 4c 1c 77 43 9b ab ea 40 eb 42 af b8 86 0c b9 62 42 23 8b 39 51 30 64 8c 65 87 3d ec a3 93 25 11 be e7 43 9e 92 a9 8b 15 3b 8a 94 57 c8 b2 bf 1f 85 0e 94 38 78 10 24 89 ce 36 18 f4 88 6a 19 1b 91 bc 94 65 62 ec 4f 3c 93 6a 7f d6 bc b7 94 28 e5 c2 8b 2d 92 c5 97 8a 18 a9 b0 a3 f7 70 b9 c7 20 51 a0 8c 90 a7 0c 01 f9 88 90 a5 11 39 0a 25 7c e0 a6 8a df 94 32 77 ac 11 51 d1 58 b2 d5 6e 62 4a c7 fc f8 6e 4d c6 52 46 e4 5e a9 13 1a fd 78 00 9d 71 02 ef d2 25 62 22 65 ed 05 18 d2 24 02 98 ec 0e 8b 46 a4 1e ea 16 a4 a8 cf 27 81 48 ff 05 23 8b 8c 59 b1 65 bc 74 bb 98 eb f7 bf e7 08 79 c0 52 4a 05 13 8f 2c 66 0f e0 b8 6e b5 ca 5b 39 9b 36 82 61 6d d6 04 73 d5 18 27 17 11 28 04 05 0d 7b 98 68 ea 92 a3 9e 19 4a 28 85 4c 02 bc 8f ed 03 c2 a1 a7 b8 04 f6 ce da eb ba a7 81 82 9d 28 15 5a 5a 30 8a c1 74 e7 99 97 8f 28 01 46 04 b8 eb d8 8b eb 1b 54 7c 54 47 cc b2 b2 7d 18 a7 34 55 79 5a e9 22 16 30 6d 45 f9 35 be d1 aa 16 c5 bf f1 a9 89 02 e7 7e 76 63 38 ed 04 ab c5 5c 35 9f 70 37 1d 20 1e 43 42 9b 20 7c 28 23 85 2b e0 57 15 41 06 57 f7 32 b6 2e 92 84 73 c9 56 76 5a 39 5b 49 77 5c 03 57 3a a5 3e 1c 14 3f 4c 8c ac e0 57 bf 48 b6 89 a6 e7 27 07 b7 8b db f4 90 a8 3a 67 46 d2 cd ee 74 0a 19 a0 a4 cb 77 18 06 94 92 bf 4c c2 88 79 08 55 a5 25 73 94 02 8b 2c ab 82 37 a2 8b 40 a4 86 42 a0 d7 b1 ab b1 cc 75 52 59 85 5a c0 7e 12 43 0c 33 19 46 af 72 15 72 54 7c 01 77 52 30 08 20 04 53 90 f4 a2 09 f1 56 46 0d c7 96 3f 33 89 00 81 c4 5f b3 3a ec 91 20 98 e8 27 12 fb 44 a2 59 b2 a2 f5 71 17 b0 9c 02 35 6a 87 b3 74 b1 43 c3 69 96 28 0e 01 45 a5 b1 6a a4 35 89 19 8a 31 c3 e3 19 20 d1 c2 e6 d9 64 cf 79 5b cb e4 90 60 f6 73 e5 d7 16 3e 44 5e 72 e6 cf 7d d0 13 35 89 13 7c 41 0e dd a1 83 00 a1 a2 17 b3 53 b9 99 a5 fb 27 9f ca f7 c0 41 a3 45 1c 8a b7 f1 a7 3d d1 d1 77 25 a9 5e 60 f0 14 2c 57 c4 3e d2 64 a8 17 4f 23 e2 41 bd f2 a6 06 f9 ce 24 08 80 eb 22 59 9f f7 11 58 00 a2 fc 71 72 33 90 6f 06 34 83 96 c6 13 ed c1 a0 e5 f8 7f ca a7 53 f3 73 3c be 79 e3 a3 0b 59 15 71 2b b2 01 45 88 59 97 6e 95 6c 03 b7 f0 c8 14 c2 51 55 cb a5 bc b0 d0 04 68 0e fb 46 75 a5 e4 33 b7 bb c2 7e c8 11 64 57 0c 6c d9 82 7d 45 b4 45 01 fd b7 7c 47 e0 d9 53 00 1d 00 20 7f 45 25 c9 9c a4 92 58 79 23 8c 47 15 bb ca 61 1d a1 c1 1d 67 4f 02 82 9f 8c c2 ef e8 b9 c7 41 00 1b 00 05 04 00 01 00 03 
+2025-10-28 16:03:59.913 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 1535
+2025-10-28 16:03:59.913 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 0
+2025-10-28 16:03:59.913 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 00 03 05 ff 00 03 16 03 01 05 f8 01 00 05 f4 03 03 1a 57 41 54 92 99 f4 27 eb 0d cd 89 0a 58 05 30 e0 4d ee 53 84 48 21 24 1f 89 a8 ae f2 8f 95 1b 20 ee f5 68 5b 31 b3 94 57 35 0f a7 86 6a cc 99 5b c5 52 66 3f db ed 20 1e d0 54 69 26 70 f3 63 bb 00 3c 13 02 13 03 13 01 c0 2c c0 30 00 9f cc a9 cc a8 cc aa c0 2b c0 2f 00 9e c0 24 c0 28 00 6b c0 23 c0 27 00 67 c0 0a c0 14 00 39 c0 09 c0 13 00 33 00 9d 00 9c 00 3d 00 3c 00 35 00 2f 01 00 05 6f ff 01 00 01 00 00 0b 00 04 03 00 01 02 00 0a 00 12 00 10 11 ec 00 1d 00 17 00 1e 00 18 00 19 01 00 01 01 00 23 00 00 00 16 00 00 00 17 00 00 00 0d 00 36 00 34 09 05 09 06 09 04 04 03 05 03 06 03 08 07 08 08 08 1a 08 1b 08 1c 08 09 08 0a 08 0b 08 04 08 05 08 06 04 01 05 01 06 01 03 03 03 01 03 02 04 02 05 02 06 02 00 2b 00 05 04 03 04 03 03 00 2d 00 02 01 01 00 33 04 ea 04 e8 11 ec 04 c0 d9 94 cd 0c 66 5d 07 17 6b 98 03 44 9d 06 59 e6 66 87 fd d5 b0 3c b6 8f 1c e7 c1 4b 20 50 49 35 6c 0f b4 af 95 e3 38 a2 ba 26 a7 20 3f 5a 10 0b 91 89 7c b0 e1 27 27 45 2c 93 a8 bc 24 56 53 1b 77 7e 79 b6 42 2c 38 62 60 51 56 68 d4 10 6c b7 0d f4 69 1e c0 b4 1b 08 66 ad ce 7a 81 00 60 99 5a 6a 4f 6c d6 46 84 48 2b 84 dc 09 c1 07 cb 20 96 6b f4 f6 50 c1 8a 73 fd 81 aa 3f f0 38 91 00 86 b2 c4 88 9c 40 24 88 16 30 91 08 31 ef 66 b3 61 6c 2a e9 68 b9 7c 26 05 79 05 5e 2f a5 cf 0c dc 36 a0 26 70 2f 98 73 02 c3 a0 f2 e3 38 3a 2c 6e 49 77 a2 87 76 98 2d 47 c4 4d 17 10 28 90 ac 8b 7b cb b1 6a 77 90 9c 8f 54 12 7f 28 13 9e 9c 62 80 f4 fb a8 9e 86 0e 0c d9 9f 85 61 08 be 2c cf 8c e9 78 8c a0 32 83 39 13 37 68 36 96 60 8d 52 89 70 2e aa ac 40 0a b2 c6 17 45 9d d0 25 87 d2 cd 84 80 1e 66 aa 8a 6e ca 20 b8 db 25 39 19 56 28 aa 52 59 f5 8b 45 56 80 8b 29 5c 2f e9 3f 08 d1 3d b5 17 03 c9 3c a2 cb c0 30 70 f6 0e ef a3 52 d5 ea 4c 5c 2b 8e e9 a3 a6 50 96 97 08 4a c0 ef 31 2a a3 25 79 21 38 0f 8f 65 cf e5 2a 45 e0 e9 00 6f c0 7a 4a a5 7d 6a 12 42 fc c8 51 99 81 0e 78 58 97 64 09 3f db b7 68 3e ac bb 29 aa 88 0a bc 99 28 65 42 8f 34 c0 fd 4a 16 40 37 1d d9 86 64 63 22 b4 ce f8 4e b3 79 2d cc 1c 31 2e a1 9f 8d b5 cb f4 55 1a 85 32 06 04 55 c9 2a ba 0d 35 c9 89 98 f3 9a 63 08 a8 47 3b 44 a7 3c 82 89 91 7b 61 65 a2 47 e3 91 3f 50 c3 ea 53 aa b1 ec 74 1f 57 2d 1e 96 99 9f 58 83 c6 57 8e 0e 9a 0f f3 c6 5c c3 cb a7 53 b6 02 5d a0 43 18 71 39 2d 3b 1d 58 55 95 80 f3 9f be 62 4d 4c a9 2f 0b 12 70 86 75 81 a0 66 6b 31 4c 1c 77 43 9b ab ea 40 eb 42 af b8 86 0c b9 62 42 23 8b 39 51 30 64 8c 65 87 3d ec a3 93 25 11 be e7 43 9e 92 a9 8b 15 3b 8a 94 57 c8 b2 bf 1f 85 0e 94 38 78 10 24 89 ce 36 18 f4 88 6a 19 1b 91 bc 94 65 62 ec 4f 3c 93 6a 7f d6 bc b7 94 28 e5 c2 8b 2d 92 c5 97 8a 18 a9 b0 a3 f7 70 b9 c7 20 51 a0 8c 90 a7 0c 01 f9 88 90 a5 11 39 0a 25 7c e0 a6 8a df 94 32 77 ac 11 51 d1 58 b2 d5 6e 62 4a c7 fc f8 6e 4d c6 52 46 e4 5e a9 13 1a fd 78 00 9d 71 02 ef d2 25 62 22 65 ed 05 18 d2 24 02 98 ec 0e 8b 46 a4 1e ea 16 a4 a8 cf 27 81 48 ff 05 23 8b 8c 59 b1 65 bc 74 bb 98 eb f7 bf e7 08 79 c0 52 4a 05 13 8f 2c 66 0f e0 b8 6e b5 ca 5b 39 9b 36 82 61 6d d6 04 73 d5 18 27 17 11 28 04 05 0d 7b 98 68 ea 92 a3 9e 19 4a 28 85 4c 02 bc 8f ed 03 c2 a1 a7 b8 04 f6 ce da eb ba a7 81 82 9d 28 15 5a 5a 30 8a c1 74 e7 99 97 8f 28 01 46 04 b8 eb d8 8b eb 1b 54 7c 54 47 cc b2 b2 7d 18 a7 34 55 79 5a e9 22 16 30 6d 45 f9 35 be d1 aa 16 c5 bf f1 a9 89 02 e7 7e 76 63 38 ed 04 ab c5 5c 35 9f 70 37 1d 20 1e 43 42 9b 20 7c 28 23 85 2b e0 57 15 41 06 57 f7 32 b6 2e 92 84 73 c9 56 76 5a 39 5b 49 77 5c 03 57 3a a5 3e 1c 14 3f 4c 8c ac e0 57 bf 48 b6 89 a6 e7 27 07 b7 8b db f4 90 a8 3a 67 46 d2 cd ee 74 0a 19 a0 a4 cb 77 18 06 94 92 bf 4c c2 88 79 08 55 a5 25 73 94 02 8b 2c ab 82 37 a2 8b 40 a4 86 42 a0 d7 b1 ab b1 cc 75 52 59 85 5a c0 7e 12 43 0c 33 19 46 af 72 15 72 54 7c 01 77 52 30 08 20 04 53 90 f4 a2 09 f1 56 46 0d c7 96 3f 33 89 00 81 c4 5f b3 3a ec 91 20 98 e8 27 12 fb 44 a2 59 b2 a2 f5 71 17 b0 9c 02 35 6a 87 b3 74 b1 43 c3 69 96 28 0e 01 45 a5 b1 6a a4 35 89 19 8a 31 c3 e3 19 20 d1 c2 e6 d9 64 cf 79 5b cb e4 90 60 f6 73 e5 d7 16 3e 44 5e 72 e6 cf 7d d0 13 35 89 13 7c 41 0e dd a1 83 00 a1 a2 17 b3 53 b9 99 a5 fb 27 9f ca f7 c0 41 a3 45 1c 8a b7 f1 a7 3d d1 d1 77 25 a9 5e 60 f0 14 2c 57 c4 3e d2 64 a8 17 4f 23 e2 41 bd f2 a6 06 f9 ce 24 08 80 eb 22 59 9f f7 11 58 00 a2 fc 71 72 33 90 6f 06 34 83 96 c6 13 ed c1 a0 e5 f8 7f ca a7 53 f3 73 3c be 79 e3 a3 0b 59 15 71 2b b2 01 45 88 59 97 6e 95 6c 03 b7 f0 c8 14 c2 51 55 cb a5 bc b0 d0 04 68 0e fb 46 75 a5 e4 33 b7 bb c2 7e c8 11 64 57 0c 6c d9 82 7d 45 b4 45 01 fd b7 7c 47 e0 d9 53 00 1d 00 20 7f 45 25 c9 9c a4 92 58 79 23 8c 47 15 bb ca 61 1d a1 c1 1d 67 4f 02 82 9f 8c c2 ef e8 b9 c7 41 00 1b 00 05 04 00 01 00 03 
+2025-10-28 16:03:59.913 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 1539
+2025-10-28 16:03:59.913 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 00 03 05 ff 00 03 16 03 01 05 f8 01 00 05 f4 03 03 1a 57 41 54 92 99 f4 27 eb 0d cd 89 0a 58 05 30 e0 4d ee 53 84 48 21 24 1f 89 a8 ae f2 8f 95 1b 20 ee f5 68 5b 31 b3 94 57 35 0f a7 86 6a cc 99 5b c5 52 66 3f db ed 20 1e d0 54 69 26 70 f3 63 bb 00 3c 13 02 13 03 13 01 c0 2c c0 30 00 9f cc a9 cc a8 cc aa c0 2b c0 2f 00 9e c0 24 c0 28 00 6b c0 23 c0 27 00 67 c0 0a c0 14 00 39 c0 09 c0 13 00 33 00 9d 00 9c 00 3d 00 3c 00 35 00 2f 01 00 05 6f ff 01 00 01 00 00 0b 00 04 03 00 01 02 00 0a 00 12 00 10 11 ec 00 1d 00 17 00 1e 00 18 00 19 01 00 01 01 00 23 00 00 00 16 00 00 00 17 00 00 00 0d 00 36 00 34 09 05 09 06 09 04 04 03 05 03 06 03 08 07 08 08 08 1a 08 1b 08 1c 08 09 08 0a 08 0b 08 04 08 05 08 06 04 01 05 01 06 01 03 03 03 01 03 02 04 02 05 02 06 02 00 2b 00 05 04 03 04 03 03 00 2d 00 02 01 01 00 33 04 ea 04 e8 11 ec 04 c0 d9 94 cd 0c 66 5d 07 17 6b 98 03 44 9d 06 59 e6 66 87 fd d5 b0 3c b6 8f 1c e7 c1 4b 20 50 49 35 6c 0f b4 af 95 e3 38 a2 ba 26 a7 20 3f 5a 10 0b 91 89 7c b0 e1 27 27 45 2c 93 a8 bc 24 56 53 1b 77 7e 79 b6 42 2c 38 62 60 51 56 68 d4 10 6c b7 0d f4 69 1e c0 b4 1b 08 66 ad ce 7a 81 00 60 99 5a 6a 4f 6c d6 46 84 48 2b 84 dc 09 c1 07 cb 20 96 6b f4 f6 50 c1 8a 73 fd 81 aa 3f f0 38 91 00 86 b2 c4 88 9c 40 24 88 16 30 91 08 31 ef 66 b3 61 6c 2a e9 68 b9 7c 26 05 79 05 5e 2f a5 cf 0c dc 36 a0 26 70 2f 98 73 02 c3 a0 f2 e3 38 3a 2c 6e 49 77 a2 87 76 98 2d 47 c4 4d 17 10 28 90 ac 8b 7b cb b1 6a 77 90 9c 8f 54 12 7f 28 13 9e 9c 62 80 f4 fb a8 9e 86 0e 0c d9 9f 85 61 08 be 2c cf 8c e9 78 8c a0 32 83 39 13 37 68 36 96 60 8d 52 89 70 2e aa ac 40 0a b2 c6 17 45 9d d0 25 87 d2 cd 84 80 1e 66 aa 8a 6e ca 20 b8 db 25 39 19 56 28 aa 52 59 f5 8b 45 56 80 8b 29 5c 2f e9 3f 08 d1 3d b5 17 03 c9 3c a2 cb c0 30 70 f6 0e ef a3 52 d5 ea 4c 5c 2b 8e e9 a3 a6 50 96 97 08 4a c0 ef 31 2a a3 25 79 21 38 0f 8f 65 cf e5 2a 45 e0 e9 00 6f c0 7a 4a a5 7d 6a 12 42 fc c8 51 99 81 0e 78 58 97 64 09 3f db b7 68 3e ac bb 29 aa 88 0a bc 99 28 65 42 8f 34 c0 fd 4a 16 40 37 1d d9 86 64 63 22 b4 ce f8 4e b3 79 2d cc 1c 31 2e a1 9f 8d b5 cb f4 55 1a 85 32 06 04 55 c9 2a ba 0d 35 c9 89 98 f3 9a 63 08 a8 47 3b 44 a7 3c 82 89 91 7b 61 65 a2 47 e3 91 3f 50 c3 ea 53 aa b1 ec 74 1f 57 2d 1e 96 99 9f 58 83 c6 57 8e 0e 9a 0f f3 c6 5c c3 cb a7 53 b6 02 5d a0 43 18 71 39 2d 3b 1d 58 55 95 80 f3 9f be 62 4d 4c a9 2f 0b 12 70 86 75 81 a0 66 6b 31 4c 1c 77 43 9b ab ea 40 eb 42 af b8 86 0c b9 62 42 23 8b 39 51 30 64 8c 65 87 3d ec a3 93 25 11 be e7 43 9e 92 a9 8b 15 3b 8a 94 57 c8 b2 bf 1f 85 0e 94 38 78 10 24 89 ce 36 18 f4 88 6a 19 1b 91 bc 94 65 62 ec 4f 3c 93 6a 7f d6 bc b7 94 28 e5 c2 8b 2d 92 c5 97 8a 18 a9 b0 a3 f7 70 b9 c7 20 51 a0 8c 90 a7 0c 01 f9 88 90 a5 11 39 0a 25 7c e0 a6 8a df 94 32 77 ac 11 51 d1 58 b2 d5 6e 62 4a c7 fc f8 6e 4d c6 52 46 e4 5e a9 13 1a fd 78 00 9d 71 02 ef d2 25 62 22 65 ed 05 18 d2 24 02 98 ec 0e 8b 46 a4 1e ea 16 a4 a8 cf 27 81 48 ff 05 23 8b 8c 59 b1 65 bc 74 bb 98 eb f7 bf e7 08 79 c0 52 4a 05 13 8f 2c 66 0f e0 b8 6e b5 ca 5b 39 9b 36 82 61 6d d6 04 73 d5 18 27 17 11 28 04 05 0d 7b 98 68 ea 92 a3 9e 19 4a 28 85 4c 02 bc 8f ed 03 c2 a1 a7 b8 04 f6 ce da eb ba a7 81 82 9d 28 15 5a 5a 30 8a c1 74 e7 99 97 8f 28 01 46 04 b8 eb d8 8b eb 1b 54 7c 54 47 cc b2 b2 7d 18 a7 34 55 79 5a e9 22 16 30 6d 45 f9 35 be d1 aa 16 c5 bf f1 a9 89 02 e7 7e 76 63 38 ed 04 ab c5 5c 35 9f 70 37 1d 20 1e 43 42 9b 20 7c 28 23 85 2b e0 57 15 41 06 57 f7 32 b6 2e 92 84 73 c9 56 76 5a 39 5b 49 77 5c 03 57 3a a5 3e 1c 14 3f 4c 8c ac e0 57 bf 48 b6 89 a6 e7 27 07 b7 8b db f4 90 a8 3a 67 46 d2 cd ee 74 0a 19 a0 a4 cb 77 18 06 94 92 bf 4c c2 88 79 08 55 a5 25 73 94 02 8b 2c ab 82 37 a2 8b 40 a4 86 42 a0 d7 b1 ab b1 cc 75 52 59 85 5a c0 7e 12 43 0c 33 19 46 af 72 15 72 54 7c 01 77 52 30 08 20 04 53 90 f4 a2 09 f1 56 46 0d c7 96 3f 33 89 00 81 c4 5f b3 3a ec 91 20 98 e8 27 12 fb 44 a2 59 b2 a2 f5 71 17 b0 9c 02 35 6a 87 b3 74 b1 43 c3 69 96 28 0e 01 45 a5 b1 6a a4 35 89 19 8a 31 c3 e3 19 20 d1 c2 e6 d9 64 cf 79 5b cb e4 90 60 f6 73 e5 d7 16 3e 44 5e 72 e6 cf 7d d0 13 35 89 13 7c 41 0e dd a1 83 00 a1 a2 17 b3 53 b9 99 a5 fb 27 9f ca f7 c0 41 a3 45 1c 8a b7 f1 a7 3d d1 d1 77 25 a9 5e 60 f0 14 2c 57 c4 3e d2 64 a8 17 4f 23 e2 41 bd f2 a6 06 f9 ce 24 08 80 eb 22 59 9f f7 11 58 00 a2 fc 71 72 33 90 6f 06 34 83 96 c6 13 ed c1 a0 e5 f8 7f ca a7 53 f3 73 3c be 79 e3 a3 0b 59 15 71 2b b2 01 45 88 59 97 6e 95 6c 03 b7 f0 c8 14 c2 51 55 cb a5 bc b0 d0 04 68 0e fb 46 75 a5 e4 33 b7 bb c2 7e c8 11 64 57 0c 6c d9 82 7d 45 b4 45 01 fd b7 7c 47 e0 d9 53 00 1d 00 20 7f 45 25 c9 9c a4 92 58 79 23 8c 47 15 bb ca 61 1d a1 c1 1d 67 4f 02 82 9f 8c c2 ef e8 b9 c7 41 00 1b 00 05 04 00 01 00 03 
+2025-10-28 16:03:59.913 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 1539
+[2025-10-28 16:04:00.057562] [0x00007f50427fa6c0] [info]    [OpenAuto] [AndroidAutoEntity] onHandshake()
+[2025-10-28 16:04:00.057584] [0x00007f50427fa6c0] [debug]   [OpenAuto] [AndroidAutoEntity] Payload size: 2347
+[2025-10-28 16:04:00.058837] [0x00007f50427fa6c0] [info]    [OpenAuto] [AndroidAutoEntity] Re-attempting handshake.
+2025-10-28 16:04:00.058 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 03 16 03 03 03 38 0b 00 03 34 00 03 31 00 03 2e 30 82 03 2a 30 82 02 12 02 01 1b 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5b 31 0b 30 09 06 03 55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08 0c 0a 43 61 6c 69 66 6f 72 6e 69 61 31 16 30 14 06 03 55 04 07 0c 0d 4d 6f 75 6e 74 61 69 6e 20 56 69 65 77 31 1f 30 1d 06 03 55 04 0a 0c 16 47 6f 6f 67 6c 65 20 41 75 74 6f 6d 6f 74 69 76 65 20 4c 69 6e 6b 30 26 17 11 31 34 30 37 30 34 30 30 30 30 30 30 2d 30 37 30 30 17 11 34 35 30 34 32 39 31 34 32 38 33 38 2d 30 37 30 30 30 53 31 0b 30 09 06 03 55 04 06 13 02 4a 50 31 0e 30 0c 06 03 55 04 08 0c 05 54 6f 6b 79 6f 31 11 30 0f 06 03 55 04 07 0c 08 48 61 63 68 69 6f 6a 69 31 14 30 12 06 03 55 04 0a 0c 0b 4a 56 43 20 4b 65 6e 77 6f 6f 64 31 0b 30 09 06 03 55 04 0b 0c 02 30 31 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 cf 75 d6 63 67 51 fc 7e 58 9b 71 ba 4d 3a 18 ee e4 5d 15 bf 81 75 15 35 00 64 6c 01 59 99 57 55 36 f2 e8 11 03 6d 86 2d 97 f1 60 8e c1 7e a7 ea 83 0f c5 4d 8c 18 99 ef 89 c3 f7 ea 40 6a 7c 78 5f 43 61 6f aa 57 fb 62 38 e1 80 11 e1 d2 5a 8a 4a 15 4f c4 8b dd 6a d0 63 55 0e fa 6b 29 b9 1f 71 a9 92 28 0b 1a 49 9e ca 25 68 54 ef 28 73 77 09 d5 b3 bd eb 01 51 9a 4e e4 25 b6 1c 12 34 32 6a 43 83 3c 3b b8 42 05 94 4f 0a 75 67 c0 e7 e3 50 11 30 6e 4e 16 1e a8 b4 84 cb 5c 1c e3 f5 11 24 50 f9 31 7d 2d 37 74 15 c6 af 9f cb 22 ab d2 b2 7c 62 6f 58 49 e3 bc 67 60 95 d1 39 4b 01 cb 77 ba 4f e7 d8 64 41 33 65 ae f2 ee d1 62 a0 72 10 f0 6f d3 ce 23 e6 bc 5c e6 42 96 96 30 68 98 7e 82 20 5f c5 a8 47 71 83 d5 d8 98 5b ec 01 69 94 d6 fb 84 85 51 92 66 44 a8 2a 4d b3 0d 16 43 02 03 01 00 01 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 03 82 01 01 00 b0 67 47 e5 51 67 ef c5 ac 04 49 4c 5d a3 33 8a a1 42 ce 68 a5 92 fa fc e7 f4 29 18 22 33 b4 8d 05 74 5e b1 c8 c0 49 93 f8 18 b3 6b 61 c2 f1 7e b4 20 a9 5e 83 bc 9a 38 09 ba f2 59 97 0a fa 7c 7c ca 3b 1e 61 35 46 f4 e8 07 8c b6 c5 33 51 f1 63 49 95 ca ad 24 7e 5e 67 25 55 df 99 eb f8 9e df 75 61 19 e3 ce 3d 32 98 98 9f cf 3d f4 d3 f7 0b d3 f7 7a ac c1 cc 61 03 ea 17 e7 2a 8b 6d 4d ee 0c f1 75 66 72 5a 11 e0 ff 60 de 39 2b fe 1e 10 0e 3f d1 20 d7 69 65 b5 e0 e4 9c 75 2d 8b 57 40 5c 62 6b 1b 90 f5 4d 61 99 f7 ec 59 58 ed ed 99 e0 55 29 86 1d 00 ef 23 04 d8 48 7f 7b 9e d0 c5 6a c9 d7 0b 9b 77 31 a7 5f c9 ab 00 17 3a ec 00 d4 53 9a fd b6 54 d1 a8 cb 3b 14 63 a4 e9 04 b6 0b 1a 78 a6 a7 95 42 ca cf b6 ce 0e 13 0c 8f 53 26 f7 2d f1 4d a3 7f ac 3f 5d 75 0f dc c4 a3 16 03 03 00 25 10 00 00 21 20 94 16 51 ce 49 ec ff 4c 0b 10 8b 8a 9b 76 ac e5 87 26 b5 23 5a 47 58 c9 2c 08 6f 06 f9 f5 39 5d 16 03 03 01 08 0f 00 01 04 08 04 01 00 47 3a ed bc 1d a0 4f d2 4b 55 9b b4 e0 93 81 d4 45 05 86 08 ff 71 e9 dd 29 61 cf 9d 39 63 ba 4e ef be 1b 35 02 c2 f8 69 ca 49 a3 c0 57 b1 7a a4 2c b5 5e 94 d4 32 ac ad 06 b8 e6 ae 7e 1e 53 30 60 c9 97 3e b4 75 2c 24 78 12 87 7a 58 db bb e3 d0 46 1b 53 04 99 b7 cc 31 a6 42 22 36 b6 2a 9f 0b 37 5c c5 2c a5 6a 59 48 8a c1 26 b7 82 23 83 63 d7 03 7e 81 05 88 c3 34 90 b6 41 22 45 52 62 fe 8e 21 6e 00 60 b8 86 4e c8 04 cd d3 72 f1 37 b3 3f b0 db b0 f8 21 b2 d8 9c 3c a3 b1 64 c3 7e c5 a8 3b 3a 86 89 c1 54 f3 75 68 21 d3 2c d6 0a cf c4 d1 52 de 99 9b d9 45 43 d5 aa 68 80 ce da 13 e1 0e 25 66 fe 28 d6 9f 81 c7 9f 1b b5 73 24 9f b0 1f d8 55 e3 39 a2 8f ef d4 e5 24 8d 29 ca a2 de 24 43 25 68 b4 04 df 3b 62 e4 61 36 27 8d ee 0e f0 86 1a bb 43 0c 4d c8 ad 1b 86 35 19 cc 14 03 03 00 01 01 16 03 03 00 28 dc a5 c9 b9 6f 27 b7 17 bb 20 f3 61 52 a7 fc 5f 62 02 69 43 14 04 6f 62 b6 e7 4b 87 10 f2 86 54 2e 4e 77 c7 cb e3 05 bf 
+2025-10-28 16:04:00.058 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 1193
+2025-10-28 16:04:00.058 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 0
+2025-10-28 16:04:00.059 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 00 03 04 a9 00 03 16 03 03 03 38 0b 00 03 34 00 03 31 00 03 2e 30 82 03 2a 30 82 02 12 02 01 1b 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5b 31 0b 30 09 06 03 55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08 0c 0a 43 61 6c 69 66 6f 72 6e 69 61 31 16 30 14 06 03 55 04 07 0c 0d 4d 6f 75 6e 74 61 69 6e 20 56 69 65 77 31 1f 30 1d 06 03 55 04 0a 0c 16 47 6f 6f 67 6c 65 20 41 75 74 6f 6d 6f 74 69 76 65 20 4c 69 6e 6b 30 26 17 11 31 34 30 37 30 34 30 30 30 30 30 30 2d 30 37 30 30 17 11 34 35 30 34 32 39 31 34 32 38 33 38 2d 30 37 30 30 30 53 31 0b 30 09 06 03 55 04 06 13 02 4a 50 31 0e 30 0c 06 03 55 04 08 0c 05 54 6f 6b 79 6f 31 11 30 0f 06 03 55 04 07 0c 08 48 61 63 68 69 6f 6a 69 31 14 30 12 06 03 55 04 0a 0c 0b 4a 56 43 20 4b 65 6e 77 6f 6f 64 31 0b 30 09 06 03 55 04 0b 0c 02 30 31 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 cf 75 d6 63 67 51 fc 7e 58 9b 71 ba 4d 3a 18 ee e4 5d 15 bf 81 75 15 35 00 64 6c 01 59 99 57 55 36 f2 e8 11 03 6d 86 2d 97 f1 60 8e c1 7e a7 ea 83 0f c5 4d 8c 18 99 ef 89 c3 f7 ea 40 6a 7c 78 5f 43 61 6f aa 57 fb 62 38 e1 80 11 e1 d2 5a 8a 4a 15 4f c4 8b dd 6a d0 63 55 0e fa 6b 29 b9 1f 71 a9 92 28 0b 1a 49 9e ca 25 68 54 ef 28 73 77 09 d5 b3 bd eb 01 51 9a 4e e4 25 b6 1c 12 34 32 6a 43 83 3c 3b b8 42 05 94 4f 0a 75 67 c0 e7 e3 50 11 30 6e 4e 16 1e a8 b4 84 cb 5c 1c e3 f5 11 24 50 f9 31 7d 2d 37 74 15 c6 af 9f cb 22 ab d2 b2 7c 62 6f 58 49 e3 bc 67 60 95 d1 39 4b 01 cb 77 ba 4f e7 d8 64 41 33 65 ae f2 ee d1 62 a0 72 10 f0 6f d3 ce 23 e6 bc 5c e6 42 96 96 30 68 98 7e 82 20 5f c5 a8 47 71 83 d5 d8 98 5b ec 01 69 94 d6 fb 84 85 51 92 66 44 a8 2a 4d b3 0d 16 43 02 03 01 00 01 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 03 82 01 01 00 b0 67 47 e5 51 67 ef c5 ac 04 49 4c 5d a3 33 8a a1 42 ce 68 a5 92 fa fc e7 f4 29 18 22 33 b4 8d 05 74 5e b1 c8 c0 49 93 f8 18 b3 6b 61 c2 f1 7e b4 20 a9 5e 83 bc 9a 38 09 ba f2 59 97 0a fa 7c 7c ca 3b 1e 61 35 46 f4 e8 07 8c b6 c5 33 51 f1 63 49 95 ca ad 24 7e 5e 67 25 55 df 99 eb f8 9e df 75 61 19 e3 ce 3d 32 98 98 9f cf 3d f4 d3 f7 0b d3 f7 7a ac c1 cc 61 03 ea 17 e7 2a 8b 6d 4d ee 0c f1 75 66 72 5a 11 e0 ff 60 de 39 2b fe 1e 10 0e 3f d1 20 d7 69 65 b5 e0 e4 9c 75 2d 8b 57 40 5c 62 6b 1b 90 f5 4d 61 99 f7 ec 59 58 ed ed 99 e0 55 29 86 1d 00 ef 23 04 d8 48 7f 7b 9e d0 c5 6a c9 d7 0b 9b 77 31 a7 5f c9 ab 00 17 3a ec 00 d4 53 9a fd b6 54 d1 a8 cb 3b 14 63 a4 e9 04 b6 0b 1a 78 a6 a7 95 42 ca cf b6 ce 0e 13 0c 8f 53 26 f7 2d f1 4d a3 7f ac 3f 5d 75 0f dc c4 a3 16 03 03 00 25 10 00 00 21 20 94 16 51 ce 49 ec ff 4c 0b 10 8b 8a 9b 76 ac e5 87 26 b5 23 5a 47 58 c9 2c 08 6f 06 f9 f5 39 5d 16 03 03 01 08 0f 00 01 04 08 04 01 00 47 3a ed bc 1d a0 4f d2 4b 55 9b b4 e0 93 81 d4 45 05 86 08 ff 71 e9 dd 29 61 cf 9d 39 63 ba 4e ef be 1b 35 02 c2 f8 69 ca 49 a3 c0 57 b1 7a a4 2c b5 5e 94 d4 32 ac ad 06 b8 e6 ae 7e 1e 53 30 60 c9 97 3e b4 75 2c 24 78 12 87 7a 58 db bb e3 d0 46 1b 53 04 99 b7 cc 31 a6 42 22 36 b6 2a 9f 0b 37 5c c5 2c a5 6a 59 48 8a c1 26 b7 82 23 83 63 d7 03 7e 81 05 88 c3 34 90 b6 41 22 45 52 62 fe 8e 21 6e 00 60 b8 86 4e c8 04 cd d3 72 f1 37 b3 3f b0 db b0 f8 21 b2 d8 9c 3c a3 b1 64 c3 7e c5 a8 3b 3a 86 89 c1 54 f3 75 68 21 d3 2c d6 0a cf c4 d1 52 de 99 9b d9 45 43 d5 aa 68 80 ce da 13 e1 0e 25 66 fe 28 d6 9f 81 c7 9f 1b b5 73 24 9f b0 1f d8 55 e3 39 a2 8f ef d4 e5 24 8d 29 ca a2 de 24 43 25 68 b4 04 df 3b 62 e4 61 36 27 8d ee 0e f0 86 1a bb 43 0c 4d c8 ad 1b 86 35 19 cc 14 03 03 00 01 01 16 03 03 00 28 dc a5 c9 b9 6f 27 b7 17 bb 20 f3 61 52 a7 fc 5f 62 02 69 43 14 04 6f 62 b6 e7 4b 87 10 f2 86 54 2e 4e 77 c7 cb e3 05 bf 
+2025-10-28 16:04:00.059 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 1197
+2025-10-28 16:04:00.059 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 00 03 04 a9 00 03 16 03 03 03 38 0b 00 03 34 00 03 31 00 03 2e 30 82 03 2a 30 82 02 12 02 01 1b 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 5b 31 0b 30 09 06 03 55 04 06 13 02 55 53 31 13 30 11 06 03 55 04 08 0c 0a 43 61 6c 69 66 6f 72 6e 69 61 31 16 30 14 06 03 55 04 07 0c 0d 4d 6f 75 6e 74 61 69 6e 20 56 69 65 77 31 1f 30 1d 06 03 55 04 0a 0c 16 47 6f 6f 67 6c 65 20 41 75 74 6f 6d 6f 74 69 76 65 20 4c 69 6e 6b 30 26 17 11 31 34 30 37 30 34 30 30 30 30 30 30 2d 30 37 30 30 17 11 34 35 30 34 32 39 31 34 32 38 33 38 2d 30 37 30 30 30 53 31 0b 30 09 06 03 55 04 06 13 02 4a 50 31 0e 30 0c 06 03 55 04 08 0c 05 54 6f 6b 79 6f 31 11 30 0f 06 03 55 04 07 0c 08 48 61 63 68 69 6f 6a 69 31 14 30 12 06 03 55 04 0a 0c 0b 4a 56 43 20 4b 65 6e 77 6f 6f 64 31 0b 30 09 06 03 55 04 0b 0c 02 30 31 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 cf 75 d6 63 67 51 fc 7e 58 9b 71 ba 4d 3a 18 ee e4 5d 15 bf 81 75 15 35 00 64 6c 01 59 99 57 55 36 f2 e8 11 03 6d 86 2d 97 f1 60 8e c1 7e a7 ea 83 0f c5 4d 8c 18 99 ef 89 c3 f7 ea 40 6a 7c 78 5f 43 61 6f aa 57 fb 62 38 e1 80 11 e1 d2 5a 8a 4a 15 4f c4 8b dd 6a d0 63 55 0e fa 6b 29 b9 1f 71 a9 92 28 0b 1a 49 9e ca 25 68 54 ef 28 73 77 09 d5 b3 bd eb 01 51 9a 4e e4 25 b6 1c 12 34 32 6a 43 83 3c 3b b8 42 05 94 4f 0a 75 67 c0 e7 e3 50 11 30 6e 4e 16 1e a8 b4 84 cb 5c 1c e3 f5 11 24 50 f9 31 7d 2d 37 74 15 c6 af 9f cb 22 ab d2 b2 7c 62 6f 58 49 e3 bc 67 60 95 d1 39 4b 01 cb 77 ba 4f e7 d8 64 41 33 65 ae f2 ee d1 62 a0 72 10 f0 6f d3 ce 23 e6 bc 5c e6 42 96 96 30 68 98 7e 82 20 5f c5 a8 47 71 83 d5 d8 98 5b ec 01 69 94 d6 fb 84 85 51 92 66 44 a8 2a 4d b3 0d 16 43 02 03 01 00 01 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 03 82 01 01 00 b0 67 47 e5 51 67 ef c5 ac 04 49 4c 5d a3 33 8a a1 42 ce 68 a5 92 fa fc e7 f4 29 18 22 33 b4 8d 05 74 5e b1 c8 c0 49 93 f8 18 b3 6b 61 c2 f1 7e b4 20 a9 5e 83 bc 9a 38 09 ba f2 59 97 0a fa 7c 7c ca 3b 1e 61 35 46 f4 e8 07 8c b6 c5 33 51 f1 63 49 95 ca ad 24 7e 5e 67 25 55 df 99 eb f8 9e df 75 61 19 e3 ce 3d 32 98 98 9f cf 3d f4 d3 f7 0b d3 f7 7a ac c1 cc 61 03 ea 17 e7 2a 8b 6d 4d ee 0c f1 75 66 72 5a 11 e0 ff 60 de 39 2b fe 1e 10 0e 3f d1 20 d7 69 65 b5 e0 e4 9c 75 2d 8b 57 40 5c 62 6b 1b 90 f5 4d 61 99 f7 ec 59 58 ed ed 99 e0 55 29 86 1d 00 ef 23 04 d8 48 7f 7b 9e d0 c5 6a c9 d7 0b 9b 77 31 a7 5f c9 ab 00 17 3a ec 00 d4 53 9a fd b6 54 d1 a8 cb 3b 14 63 a4 e9 04 b6 0b 1a 78 a6 a7 95 42 ca cf b6 ce 0e 13 0c 8f 53 26 f7 2d f1 4d a3 7f ac 3f 5d 75 0f dc c4 a3 16 03 03 00 25 10 00 00 21 20 94 16 51 ce 49 ec ff 4c 0b 10 8b 8a 9b 76 ac e5 87 26 b5 23 5a 47 58 c9 2c 08 6f 06 f9 f5 39 5d 16 03 03 01 08 0f 00 01 04 08 04 01 00 47 3a ed bc 1d a0 4f d2 4b 55 9b b4 e0 93 81 d4 45 05 86 08 ff 71 e9 dd 29 61 cf 9d 39 63 ba 4e ef be 1b 35 02 c2 f8 69 ca 49 a3 c0 57 b1 7a a4 2c b5 5e 94 d4 32 ac ad 06 b8 e6 ae 7e 1e 53 30 60 c9 97 3e b4 75 2c 24 78 12 87 7a 58 db bb e3 d0 46 1b 53 04 99 b7 cc 31 a6 42 22 36 b6 2a 9f 0b 37 5c c5 2c a5 6a 59 48 8a c1 26 b7 82 23 83 63 d7 03 7e 81 05 88 c3 34 90 b6 41 22 45 52 62 fe 8e 21 6e 00 60 b8 86 4e c8 04 cd d3 72 f1 37 b3 3f b0 db b0 f8 21 b2 d8 9c 3c a3 b1 64 c3 7e c5 a8 3b 3a 86 89 c1 54 f3 75 68 21 d3 2c d6 0a cf c4 d1 52 de 99 9b d9 45 43 d5 aa 68 80 ce da 13 e1 0e 25 66 fe 28 d6 9f 81 c7 9f 1b b5 73 24 9f b0 1f d8 55 e3 39 a2 8f ef d4 e5 24 8d 29 ca a2 de 24 43 25 68 b4 04 df 3b 62 e4 61 36 27 8d ee 0e f0 86 1a bb 43 0c 4d c8 ad 1b 86 35 19 cc 14 03 03 00 01 01 16 03 03 00 28 dc a5 c9 b9 6f 27 b7 17 bb 20 f3 61 52 a7 fc 5f 62 02 69 43 14 04 6f 62 b6 e7 4b 87 10 f2 86 54 2e 4e 77 c7 cb e3 05 bf 
+2025-10-28 16:04:00.059 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 1197
+[2025-10-28 16:04:00.158178] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:00.158208] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:00.189865] [0x00007f50427fa6c0] [info]    [OpenAuto] [AndroidAutoEntity] onHandshake()
+[2025-10-28 16:04:00.189878] [0x00007f50427fa6c0] [debug]   [OpenAuto] [AndroidAutoEntity] Payload size: 51
+[2025-10-28 16:04:00.189947] [0x00007f50427fa6c0] [info]    [OpenAuto] [AndroidAutoEntity] Handshake completed.
+2025-10-28 16:04:00.190 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 04 08 00 
+2025-10-28 16:04:00.190 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.190 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 0
+2025-10-28 16:04:00.190 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 00 03 00 04 00 04 08 00 
+2025-10-28 16:04:00.190 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 8
+2025-10-28 16:04:00.190 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 00 03 00 04 00 04 08 00 
+2025-10-28 16:04:00.190 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 8
+[2025-10-28 16:04:00.228411] [0x00007f50427fa6c0] [info]    [OpenAuto] [AndroidAutoEntity] onServiceDiscoveryRequest()
+[2025-10-28 16:04:00.228438] [0x00007f50427fa6c0] [debug]   [OpenAuto] [AndroidAutoEntity] Type: Android, Model: Xiaomi 23021RAA2Y
+[2025-10-28 16:04:00.228474] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] fillFeatures()
+[2025-10-28 16:04:00.228479] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel: MEDIA_SINK_MEDIA_AUDIO
+[2025-10-28 16:04:00.228494] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Music Audio.
+[2025-10-28 16:04:00.228508] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] getSampleRate 48000
+[2025-10-28 16:04:00.228511] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] getSampleSize 16
+[2025-10-28 16:04:00.228514] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] getChannelCount 2
+[2025-10-28 16:04:00.228517] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] fillFeatures()
+[2025-10-28 16:04:00.228520] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel: MEDIA_SINK_GUIDANCE_AUDIO
+[2025-10-28 16:04:00.228524] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Guidance Audio.
+[2025-10-28 16:04:00.228527] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] getSampleRate 16000
+[2025-10-28 16:04:00.228530] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] getSampleSize 16
+[2025-10-28 16:04:00.228533] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] getChannelCount 1
+[2025-10-28 16:04:00.228536] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] fillFeatures()
+[2025-10-28 16:04:00.228539] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel: MEDIA_SINK_SYSTEM_AUDIO
+[2025-10-28 16:04:00.228542] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] System Audio.
+[2025-10-28 16:04:00.228545] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] getSampleRate 16000
+[2025-10-28 16:04:00.228548] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] getSampleSize 16
+[2025-10-28 16:04:00.228551] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] getChannelCount 1
+[2025-10-28 16:04:00.228554] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] fillFeatures()
+[2025-10-28 16:04:00.228558] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] Channel MEDIA_SINK_VIDEO
+[2025-10-28 16:04:00.228761] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] getVideoResolution VIDEO_1920x1080
+[2025-10-28 16:04:00.228781] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] getVideoFPS VIDEO_FPS_60
+[2025-10-28 16:04:00.228786] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] width 0
+[2025-10-28 16:04:00.228789] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] height 0
+[2025-10-28 16:04:00.228792] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] getScreenDPI 140
+[2025-10-28 16:04:00.228796] [0x00007f50427fa6c0] [info]    [OpenAuto] [MediaSourceService] fillFeatures()
+[2025-10-28 16:04:00.228805] [0x00007f50427fa6c0] [info]    [OpenAuto] [SensorService] fillFeatures()
+[2025-10-28 16:04:00.228820] [0x00007f50427fa6c0] [info]    [OpenAuto] [InputSourceService] fillFeatures()
+[2025-10-28 16:04:00.228835] [0x00007f50427fa6c0] [info]    [OpenAuto] [BluetoothService] fillFeatures()
+[2025-10-28 16:04:00.228842] [0x00007f50427fa6c0] [info]    [OpenAuto] [BluetoothService] Bluetooth Not Available 
+[2025-10-28 16:04:00.228849] [0x00007f50427fa6c0] [info]    [OpenAuto] [DEBUG] === SERVICE DISCOVERY RESPONSE PAYLOAD ===
+[2025-10-28 16:04:00.228860] [0x00007f50427fa6c0] [info]    [OpenAuto] [DEBUG] Message ID: 0x00 (0)
+[2025-10-28 16:04:00.229027] [0x00007f50427fa6c0] [info]    [OpenAuto] [DEBUG] ServiceDiscoveryResponse size: 279 bytes
+[2025-10-28 16:04:00.229051] [0x00007f50427fa6c0] [info]    [OpenAuto] [DEBUG] Full payload hex: 00060a1408041a10080110031a080880f7021010180228010a1308051a0f080110011a0708807d1010180128010a1308061a0f080110021a0708807d1010180128010a1508031a110803220b0803100118002000288c0128010a0f08092a0b0801120708807d101018010a100801120c0a02080d0a0208010a02080a0a0c08082208120608800f10b8080a12080a320e0a00120affffffffffffffffff0130015800720d4372616e6b73686166742d4e47780082010d0a0b08b81710e80718c80120058a01530a0a4372616e6b73686166741209556e6976657273616c1a04323031382210323032343131303832323135303938382a0366317832154372616e6b73686166742d4e47204175746f6170703a01314203312e30
+[2025-10-28 16:04:00.229055] [0x00007f50427fa6c0] [info]    [OpenAuto] [DEBUG] Total payload size: 281 bytes
+[2025-10-28 16:04:00.229057] [0x00007f50427fa6c0] [info]    [OpenAuto] [DEBUG] =========================================
+2025-10-28 16:04:00.229 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 06 0a 14 08 04 1a 10 08 01 10 03 1a 08 08 80 f7 02 10 10 18 02 28 01 0a 13 08 05 1a 0f 08 01 10 01 1a 07 08 80 7d 10 10 18 01 28 01 0a 13 08 06 1a 0f 08 01 10 02 1a 07 08 80 7d 10 10 18 01 28 01 0a 15 08 03 1a 11 08 03 22 0b 08 03 10 01 18 00 20 00 28 8c 01 28 01 0a 0f 08 09 2a 0b 08 01 12 07 08 80 7d 10 10 18 01 0a 10 08 01 12 0c 0a 02 08 0d 0a 02 08 01 0a 02 08 0a 0a 0c 08 08 22 08 12 06 08 80 0f 10 b8 08 0a 12 08 0a 32 0e 0a 00 12 0a ff ff ff ff ff ff ff ff ff 01 30 01 58 00 72 0d 43 72 61 6e 6b 73 68 61 66 74 2d 4e 47 78 00 82 01 0d 0a 0b 08 b8 17 10 e8 07 18 c8 01 20 05 8a 01 53 0a 0a 43 72 61 6e 6b 73 68 61 66 74 12 09 55 6e 69 76 65 72 73 61 6c 1a 04 32 30 31 38 22 10 32 30 32 34 31 31 30 38 32 32 31 35 30 39 38 38 2a 03 66 31 78 32 15 43 72 61 6e 6b 73 68 61 66 74 2d 4e 47 20 41 75 74 6f 61 70 70 3a 01 31 42 03 31 2e 30 
+2025-10-28 16:04:00.229 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 281
+2025-10-28 16:04:00.229 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 0
+2025-10-28 16:04:00.229 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 00 0b 01 36 17 03 03 01 31 dc a5 c9 b9 6f 27 b7 18 79 d2 ab 5e 54 21 7f c1 77 e8 d4 1e 72 8d 71 c8 9b 2e 62 1a 68 92 18 df ac 20 ca 69 22 10 61 e9 23 ec 2e b8 5e 77 44 53 68 70 46 98 8b 6b 04 4d 7e 56 ff 19 9e ef 2c 89 04 61 59 e3 eb 9f 99 17 6f 3a 24 58 5e e9 fa df be 02 d9 ad 79 55 f6 40 70 c0 32 9d 90 73 19 d1 3f f2 0a b0 1d 7f 5b 1d d8 e8 d0 92 07 fb 82 2c ce 37 70 fc 4e a2 87 2e d6 4b ad f9 0f 33 5e 71 34 9a 7e e4 f4 e1 34 a3 b6 34 a9 1e 25 88 c2 42 d6 82 8c 6e 95 51 20 17 90 67 17 65 2e 3d 2f 51 06 e2 15 39 6c b7 e3 39 2c 99 03 5a a8 db 85 5f e6 a4 8c 79 bc 79 5d cb 61 23 6d ec 68 cb 74 df df 22 ad 12 0e 19 3f 42 c6 27 1b fc da e6 1e 06 88 30 6f b1 d4 bb 5f 89 96 b8 b0 d8 78 7a 1a b5 34 f3 4e 17 c4 65 f1 88 fa 57 2a 6c fa f5 cc 2e 7d aa a6 33 65 7c 88 29 17 ce 75 64 e9 c0 d4 f4 c1 08 04 13 5b bb c5 79 34 a0 52 26 5c 39 ca 45 ff 97 ec 62 0b 6b 05 30 e1 e7 51 d6 19 28 53 14 6c 40 76 6f 09 74 f9 f9 d6 98 51 22 b2 d5 5b 92 72 
+2025-10-28 16:04:00.229 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 314
+2025-10-28 16:04:00.229 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 00 0b 01 36 17 03 03 01 31 dc a5 c9 b9 6f 27 b7 18 79 d2 ab 5e 54 21 7f c1 77 e8 d4 1e 72 8d 71 c8 9b 2e 62 1a 68 92 18 df ac 20 ca 69 22 10 61 e9 23 ec 2e b8 5e 77 44 53 68 70 46 98 8b 6b 04 4d 7e 56 ff 19 9e ef 2c 89 04 61 59 e3 eb 9f 99 17 6f 3a 24 58 5e e9 fa df be 02 d9 ad 79 55 f6 40 70 c0 32 9d 90 73 19 d1 3f f2 0a b0 1d 7f 5b 1d d8 e8 d0 92 07 fb 82 2c ce 37 70 fc 4e a2 87 2e d6 4b ad f9 0f 33 5e 71 34 9a 7e e4 f4 e1 34 a3 b6 34 a9 1e 25 88 c2 42 d6 82 8c 6e 95 51 20 17 90 67 17 65 2e 3d 2f 51 06 e2 15 39 6c b7 e3 39 2c 99 03 5a a8 db 85 5f e6 a4 8c 79 bc 79 5d cb 61 23 6d ec 68 cb 74 df df 22 ad 12 0e 19 3f 42 c6 27 1b fc da e6 1e 06 88 30 6f b1 d4 bb 5f 89 96 b8 b0 d8 78 7a 1a b5 34 f3 4e 17 c4 65 f1 88 fa 57 2a 6c fa f5 cc 2e 7d aa a6 33 65 7c 88 29 17 ce 75 64 e9 c0 d4 f4 c1 08 04 13 5b bb c5 79 34 a0 52 26 5c 39 ca 45 ff 97 ec 62 0b 6b 05 30 e1 e7 51 d6 19 28 53 14 6c 40 76 6f 09 74 f9 f9 d6 98 51 22 b2 d5 5b 92 72 
+2025-10-28 16:04:00.229 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 314
+[2025-10-28 16:04:00.408268] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:00.408296] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:00.590351] [0x00007f50427fa6c0] [info]    [OpenAuto] [AndroidAutoEntity] onAudioFocusRequest()
+[2025-10-28 16:04:00.590407] [0x00007f50427fa6c0] [debug]   [OpenAuto] [AndroidAutoEntity] AudioFocusRequestType received: AUDIO_FOCUS_RELEASE
+[2025-10-28 16:04:00.590437] [0x00007f50427fa6c0] [debug]   [OpenAuto] [AndroidAutoEntity] AudioFocusStateType determined: AUDIO_FOCUS_STATE_LOSS
+[2025-10-28 16:04:00.590458] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioFocusStateType] hexSend: 0803
+2025-10-28 16:04:00.590 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 13 08 03 
+2025-10-28 16:04:00.590 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.590 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 0
+2025-10-28 16:04:00.590 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 00 0b 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 19 b9 03 f2 36 71 7c 1f b0 0b 6d 23 14 85 b5 87 d3 d7 92 d1 a8 
+2025-10-28 16:04:00.590 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.590 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 00 0b 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 19 b9 03 f2 36 71 7c 1f b0 0b 6d 23 14 85 b5 87 d3 d7 92 d1 a8 
+2025-10-28 16:04:00.590 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+[2025-10-28 16:04:00.591390] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] onChannelOpenRequest()
+[2025-10-28 16:04:00.591399] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel Id: 4, Priority: 0
+[2025-10-28 16:04:00.591403] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Sample Rate: 48000, Sample Size: 16, Audio Channels: 2
+[2025-10-28 16:04:00.591469] [0x00007f50427fa6c0] [debug]   [OpenAuto] [AudioMediaSinkService] Status determined: STATUS_SUCCESS
+[2025-10-28 16:04:00.591482] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] hexSend: 0800
+2025-10-28 16:04:00.591 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 08 08 00 
+2025-10-28 16:04:00.591 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.591 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 4
+2025-10-28 16:04:00.591 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 04 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1a 61 0a 6b 10 82 a6 e4 11 c2 c1 5b 99 7e 4a 4f e6 0f 63 85 05 
+2025-10-28 16:04:00.591 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.591 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 04 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1a 61 0a 6b 10 82 a6 e4 11 c2 c1 5b 99 7e 4a 4f e6 0f 63 85 05 
+2025-10-28 16:04:00.591 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+[2025-10-28 16:04:00.593896] [0x00007f5040ff76c0] [info]    [OpenAuto] [AudioMediaSinkService] onChannelOpenRequest()
+[2025-10-28 16:04:00.593906] [0x00007f5040ff76c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel Id: 5, Priority: 0
+[2025-10-28 16:04:00.593911] [0x00007f5040ff76c0] [info]    [OpenAuto] [AudioMediaSinkService] Sample Rate: 16000, Sample Size: 16, Audio Channels: 1
+[2025-10-28 16:04:00.593915] [0x00007f5040ff76c0] [debug]   [OpenAuto] [AudioMediaSinkService] Status determined: STATUS_SUCCESS
+[2025-10-28 16:04:00.593933] [0x00007f5040ff76c0] [info]    [OpenAuto] [AudioMediaSinkService] hexSend: 0800
+2025-10-28 16:04:00.593 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 08 08 00 
+2025-10-28 16:04:00.593 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.593 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 5
+2025-10-28 16:04:00.593 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 05 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1b cf 92 55 f8 f0 50 b0 81 60 7e 89 1c 3c dc 48 77 92 5d ad 48 
+2025-10-28 16:04:00.593 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.594 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 05 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1b cf 92 55 f8 f0 50 b0 81 60 7e 89 1c 3c dc 48 77 92 5d ad 48 
+2025-10-28 16:04:00.594 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+[2025-10-28 16:04:00.594215] [0x00007f50417f86c0] [info]    [OpenAuto] [AudioMediaSinkService] onChannelOpenRequest()
+[2025-10-28 16:04:00.594225] [0x00007f50417f86c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel Id: 6, Priority: 0
+[2025-10-28 16:04:00.594230] [0x00007f50417f86c0] [info]    [OpenAuto] [AudioMediaSinkService] Sample Rate: 16000, Sample Size: 16, Audio Channels: 1
+[2025-10-28 16:04:00.594234] [0x00007f50417f86c0] [debug]   [OpenAuto] [AudioMediaSinkService] Status determined: STATUS_SUCCESS
+[2025-10-28 16:04:00.594239] [0x00007f50417f86c0] [info]    [OpenAuto] [AudioMediaSinkService] hexSend: 0800
+2025-10-28 16:04:00.594 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 08 08 00 
+2025-10-28 16:04:00.594 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.594 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 6
+2025-10-28 16:04:00.594 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 06 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1c a1 61 1d 97 d1 59 18 2f c7 a1 7a 86 e3 fe 31 a9 1b 2b 0f 92 
+2025-10-28 16:04:00.594 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.594 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 06 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1c a1 61 1d 97 d1 59 18 2f c7 a1 7a 86 e3 fe 31 a9 1b 2b 0f 92 
+2025-10-28 16:04:00.594 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+[2025-10-28 16:04:00.596466] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] onChannelOpenRequest()
+[2025-10-28 16:04:00.596476] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] Channel Id: 3, Priority: 0
+[2025-10-28 16:04:00.596484] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] Status determined: STATUS_SUCCESS
+2025-10-28 16:04:00.596 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 08 08 00 
+2025-10-28 16:04:00.596 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.596 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:00.596 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1d e1 23 a8 cb 08 c2 24 43 d3 79 20 9a c0 0c b8 31 67 d7 e5 77 
+2025-10-28 16:04:00.596 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.596 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1d e1 23 a8 cb 08 c2 24 43 d3 79 20 9a c0 0c b8 31 67 d7 e5 77 
+2025-10-28 16:04:00.596 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+[2025-10-28 16:04:00.597699] [0x00007f5041ff96c0] [info]    [OpenAuto] [MediaSourceService] onChannelOpenRequest()
+[2025-10-28 16:04:00.597717] [0x00007f5041ff96c0] [info]    [OpenAuto] [MediaSourceService] Channel Id: 9, Priority: 0
+[2025-10-28 16:04:00.597722] [0x00007f5041ff96c0] [info]    [OpenAuto] [MediaSourceService] Status determined: STATUS_SUCCESS
+2025-10-28 16:04:00.597 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 08 08 00 
+2025-10-28 16:04:00.597 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.597 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 9
+2025-10-28 16:04:00.597 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 09 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1e 07 17 5e e4 99 a1 95 22 4e a3 03 24 21 7f 42 97 ed 1a 69 a6 
+2025-10-28 16:04:00.597 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.597 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 09 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1e 07 17 5e e4 99 a1 95 22 4e a3 03 24 21 7f 42 97 ed 1a 69 a6 
+2025-10-28 16:04:00.597 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+[2025-10-28 16:04:00.601567] [0x00007f50427fa6c0] [info]    [OpenAuto] [SensorService] onChannelOpenRequest()
+[2025-10-28 16:04:00.601578] [0x00007f50427fa6c0] [debug]   [OpenAuto] [SensorService] Channel Id: 1, Priority: 0
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 08 08 00 
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 1
+[2025-10-28 16:04:00.601625] [0x00007f50417f86c0] [info]    [OpenAuto] [InputSourceService] onChannelOpenRequest()
+[2025-10-28 16:04:00.601636] [0x00007f50417f86c0] [debug]   [OpenAuto] [InputSourceService] Channel Id: 8, Priority: 0
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 01 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1f 73 c1 39 03 b7 b1 da df ef d5 84 fd 9e 3e cf 20 db 16 a5 78 
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 01 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 1f 73 c1 39 03 b7 b1 da df ef d5 84 fd 9e 3e cf 20 db 16 a5 78 
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 08 08 00 
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 8
+[2025-10-28 16:04:00.601723] [0x00007f5040ff76c0] [info]    [OpenAuto] [BluetoothService] onChannelOpenRequest()
+[2025-10-28 16:04:00.601733] [0x00007f5040ff76c0] [debug]   [OpenAuto] [BluetoothService] Channel Id: 10, Priority: 0
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 00 08 08 00 
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 10
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 08 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 20 5c 74 e7 39 c5 91 71 d8 f4 37 f4 64 78 9f 42 80 b2 b1 0f f3 
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 08 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 20 5c 74 e7 39 c5 91 71 d8 f4 37 f4 64 78 9f 42 80 b2 b1 0f f3 
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 0a 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 21 0c b5 21 f7 4e e8 fe 64 6c c8 8d 4a 40 2a 70 60 5e 60 c4 a7 
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 0a 0f 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 21 0c b5 21 f7 4e e8 fe 64 6c c8 8d 4a 40 2a 70 60 5e 60 c4 a7 
+2025-10-28 16:04:00.601 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+[2025-10-28 16:04:00.606813] [0x00007f5041ff96c0] [info]    [OpenAuto] [AudioMediaSinkService] onMediaChannelSetupRequest()
+[2025-10-28 16:04:00.606871] [0x00007f5041ff96c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel Id: MEDIA_SINK_MEDIA_AUDIO, Codec: MEDIA_CODEC_AUDIO_PCM
+[2025-10-28 16:04:00.606882] [0x00007f5040ff76c0] [info]    [OpenAuto] [VideoMediaSinkService] onMediaChannelSetupRequest()
+[2025-10-28 16:04:00.606891] [0x00007f5040ff76c0] [info]    [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, Codec: MEDIA_CODEC_VIDEO_H264_BP
+2025-10-28 16:04:00.606 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 03 08 02 10 01 18 00 
+2025-10-28 16:04:00.606 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 8
+2025-10-28 16:04:00.606 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 4
+[2025-10-28 16:04:00.606958] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] setup status: STATUS_READY
+2025-10-28 16:04:00.606 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 04 0b 00 25 17 03 03 00 20 dc a5 c9 b9 6f 27 b7 22 22 37 b9 66 8c 29 f4 0a 2e 6f b0 2c 0a 8f 32 2b d5 f0 1e 0c 1a 11 f7 6a 
+2025-10-28 16:04:00.606 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 41
+2025-10-28 16:04:00.606 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 04 0b 00 25 17 03 03 00 20 dc a5 c9 b9 6f 27 b7 22 22 37 b9 66 8c 29 f4 0a 2e 6f b0 2c 0a 8f 32 2b d5 f0 1e 0c 1a 11 f7 6a 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 41
+2025-10-28 16:04:00.606 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 03 08 02 10 01 18 00 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 8
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 25 17 03 03 00 20 dc a5 c9 b9 6f 27 b7 23 4d f2 a7 e9 16 7f 3a 4c be e4 eb 74 d0 27 14 1e 2a d6 9e 0f 8e e2 e6 2a 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 41
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 25 17 03 03 00 20 dc a5 c9 b9 6f 27 b7 23 4d f2 a7 e9 16 7f 3a 4c be e4 eb 74 d0 27 14 1e 2a d6 9e 0f 8e e2 e6 2a 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 41
+[2025-10-28 16:04:00.607156] [0x00007f5040ff76c0] [info]    [OpenAuto] [VideoMediaSinkService] sendVideoFocusIndication()
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 08 08 01 10 00 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 24 49 a9 3f ca 5a ca 83 0a a8 ae 17 a1 d2 b4 ba 4b 59 bc d9 ef 44 6f 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 24 49 a9 3f ca 5a ca 83 0a a8 ae 17 a1 d2 b4 ba 4b 59 bc d9 ef 44 6f 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:00.607275] [0x00007f50417f86c0] [info]    [OpenAuto] [AudioMediaSinkService] onMediaChannelSetupRequest()
+[2025-10-28 16:04:00.607293] [0x00007f50417f86c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel Id: MEDIA_SINK_GUIDANCE_AUDIO, Codec: MEDIA_CODEC_AUDIO_PCM
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 03 08 02 10 01 18 00 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 8
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 5
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 05 0b 00 25 17 03 03 00 20 dc a5 c9 b9 6f 27 b7 25 a0 a6 6e f4 94 ce 94 2d d0 fa 59 4d 3f 74 fb d1 f4 2f ca 77 d4 ce 49 77 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 41
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 05 0b 00 25 17 03 03 00 20 dc a5 c9 b9 6f 27 b7 25 a0 a6 6e f4 94 ce 94 2d d0 fa 59 4d 3f 74 fb d1 f4 2f ca 77 d4 ce 49 77 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 41
+[2025-10-28 16:04:00.607800] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] onMediaChannelSetupRequest()
+[2025-10-28 16:04:00.607813] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel Id: MEDIA_SINK_SYSTEM_AUDIO, Codec: MEDIA_CODEC_AUDIO_PCM
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 03 08 02 10 01 18 00 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 8
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 6
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 06 0b 00 25 17 03 03 00 20 dc a5 c9 b9 6f 27 b7 26 65 c7 14 5c 0f e3 4f c3 c5 40 b0 42 33 65 04 ee 9f 96 57 05 c8 30 74 24 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 41
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 06 0b 00 25 17 03 03 00 20 dc a5 c9 b9 6f 27 b7 26 65 c7 14 5c 0f e3 4f c3 c5 40 b0 42 33 65 04 ee 9f 96 57 05 c8 30 74 24 
+2025-10-28 16:04:00.607 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 41
+[2025-10-28 16:04:00.617344] [0x00007f5047e3b980] [debug]   [OpenAuto] Player error state -> 
+[2025-10-28 16:04:00.647677] [0x00007f50427fa6c0] [info]    [OpenAuto] [SensorService] onSensorStartRequest()
+[2025-10-28 16:04:00.647696] [0x00007f50427fa6c0] [debug]   [OpenAuto] [SensorService] Request Type: 1
+2025-10-28 16:04:00.647 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 02 08 00 
+2025-10-28 16:04:00.647 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.647 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 1
+2025-10-28 16:04:00.647 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 01 0b 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 27 3b 66 6b c2 08 3b 87 57 04 50 ce a7 cd 82 9f 47 01 1b bb 81 
+2025-10-28 16:04:00.647 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.647 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 01 0b 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 27 3b 66 6b c2 08 3b 87 57 04 50 ce a7 cd 82 9f 47 01 1b bb 81 
+2025-10-28 16:04:00.647 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+[2025-10-28 16:04:00.651244] [0x00007f5041ff96c0] [debug]   [OpenAuto] [InputSourceService] onKeyBindingRequest()
+[2025-10-28 16:04:00.651267] [0x00007f5041ff96c0] [debug]   [OpenAuto] [InputSourceService] KeyCodes Count: 0
+[2025-10-28 16:04:00.651275] [0x00007f5041ff96c0] [info]    [OpenAuto] [InputDevice] start()
+[2025-10-28 16:04:00.651281] [0x00007f5041ff96c0] [debug]   [OpenAuto] [InputSourceService] Sending KeyBindingResponse with Status: 0
+2025-10-28 16:04:00.651 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 03 08 00 
+2025-10-28 16:04:00.651 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.651 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 8
+2025-10-28 16:04:00.651 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 08 0b 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 28 8b 28 0d d4 64 dc 66 eb b8 94 e4 e5 0a a2 ca 70 a5 00 7b 6e 
+2025-10-28 16:04:00.651 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.651 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 08 0b 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 28 8b 28 0d d4 64 dc 66 eb b8 94 e4 e5 0a a2 ca 70 a5 00 7b 6e 
+2025-10-28 16:04:00.651 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+[2025-10-28 16:04:00.658335] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:00.658345] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:00.670258] [0x00007f50417f86c0] [info]    [OpenAuto] [VideoMediaSinkService] onMediaChannelStartIndication()
+[2025-10-28 16:04:00.670268] [0x00007f50417f86c0] [info]    [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+[2025-10-28 16:04:00.679340] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] onSensorStartRequest()
+[2025-10-28 16:04:00.679351] [0x00007f5041ff96c0] [debug]   [OpenAuto] [SensorService] Request Type: 13
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 02 08 00 
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 1
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 01 0b 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 29 15 b5 31 eb d1 d9 b6 8f e2 0a 65 f9 e6 41 a5 38 4a 43 01 7f 
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 01 0b 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 29 15 b5 31 eb d1 d9 b6 8f e2 0a 65 f9 e6 41 a5 38 4a 43 01 7f 
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+[2025-10-28 16:04:00.679473] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] sendDrivingStatusUnrestricted()
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 03 6a 02 08 00 
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 1
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 01 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 2a 06 a0 78 4e c9 14 e1 c0 46 5c 76 c1 66 50 97 88 de c4 5e 5c 6a 73 
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 01 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 2a 06 a0 78 4e c9 14 e1 c0 46 5c 76 c1 66 50 97 88 de c4 5e 5c 6a 73 
+2025-10-28 16:04:00.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:00.728411] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] onSensorStartRequest()
+[2025-10-28 16:04:00.728430] [0x00007f5041ff96c0] [debug]   [OpenAuto] [SensorService] Request Type: 10
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 02 08 00 
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 4
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 1
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 01 0b 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 2b c1 d1 3d 49 f7 24 70 d9 13 e9 ee 14 aa 31 71 79 fb 1b f3 89 
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 37
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 01 0b 00 21 17 03 03 00 1c dc a5 c9 b9 6f 27 b7 2b c1 d1 3d 49 f7 24 70 d9 13 e9 ee 14 aa 31 71 79 fb 1b f3 89 
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 37
+[2025-10-28 16:04:00.728563] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] sendNightData()
+[2025-10-28 16:04:00.728573] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] Day Mode Triggered
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 03 52 02 08 00 
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 1
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 01 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 2c 11 d5 6d ed 59 6f 65 0f ef ba 78 19 7f 18 77 1b a5 4b 44 29 4f d7 
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 01 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 2c 11 d5 6d ed 59 6f 65 0f ef ba 78 19 7f 18 77 1b a5 4b 44 29 4f d7 
+2025-10-28 16:04:00.728 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:00.823329] [0x00007f50417f86c0] [info]    [OpenAuto] [AndroidAutoEntity] onPingRequest()
+[2025-10-28 16:04:00.908396] [0x00007f5040ff76c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:00.908410] [0x00007f5040ff76c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:01.158462] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:01.158478] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:01.408542] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:01.408555] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:01.422425] [0x00007f50417f86c0] [info]    [OpenAuto] [VideoMediaSinkService] onVideoFocusRequest()
+[2025-10-28 16:04:01.422484] [0x00007f50417f86c0] [info]    [OpenAuto] [VideoMediaSinkService] Display index: 0, focus mode: VIDEO_FOCUS_PROJECTED, focus reason: UNKNOWN
+[2025-10-28 16:04:01.422490] [0x00007f50417f86c0] [info]    [OpenAuto] [VideoMediaSinkService] sendVideoFocusIndication()
+2025-10-28 16:04:01.422 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 08 08 01 10 00 
+2025-10-28 16:04:01.422 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:01.422 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:01.422 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 2d f5 4d 4a c0 87 fb 35 e3 28 98 12 0d 55 7c 96 ce db aa 95 dc ba 9e 
+2025-10-28 16:04:01.422 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:01.422 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 2d f5 4d 4a c0 87 fb 35 e3 28 98 12 0d 55 7c 96 ce db aa 95 dc ba 9e 
+2025-10-28 16:04:01.422 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:01.658625] [0x00007f5040ff76c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:01.658643] [0x00007f5040ff76c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:01.908690] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:01.908704] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:01.910861] [0x00007f5040ff76c0] [info]    [OpenAuto] [AndroidAutoEntity] onPingRequest()
+[2025-10-28 16:04:02.158752] [0x00007f50427fa6c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:02.158766] [0x00007f50427fa6c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:02.408820] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:02.408835] [0x00007f50417f86c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:02.483211] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaIndication()
+[2025-10-28 16:04:02.483223] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:02.483230] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:02.483 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:02.483 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:02.483 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:02.483 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 2e 5f cd b8 bd 37 cd 9e 79 9e c4 6b 76 01 24 71 4d 15 0a a4 3e 70 6b 
+2025-10-28 16:04:02.483 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:02.483 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 2e 5f cd b8 bd 37 cd 9e 79 9e c4 6b 76 01 24 71 4d 15 0a a4 3e 70 6b 
+2025-10-28 16:04:02.483 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:02.528644] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:02.528655] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:02.528 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:02.528 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:02.528 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:02.528 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 2f a2 1c 61 2b 72 9a bc 14 05 83 96 6c f1 f8 21 63 6c 58 2a 19 4c c6 
+2025-10-28 16:04:02.528 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:02.528 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 2f a2 1c 61 2b 72 9a bc 14 05 83 96 6c f1 f8 21 63 6c 58 2a 19 4c c6 
+2025-10-28 16:04:02.528 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:02.529033] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:02.529041] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:02.529 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:02.529 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:02.529 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:02.529 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 30 9d f7 95 fd 98 0a 45 7d 15 e7 f5 6c e5 95 0d c4 b4 12 71 72 fe 8f 
+2025-10-28 16:04:02.529 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:02.529 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 30 9d f7 95 fd 98 0a 45 7d 15 e7 f5 6c e5 95 0d c4 b4 12 71 72 fe 8f 
+2025-10-28 16:04:02.529 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:02.542982] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:02.542996] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:02.543 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:02.543 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:02.543 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:02.543 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 31 5e 22 00 c1 d7 bb ea 5e 8b 95 b4 72 3a 36 b0 c1 f8 38 1b e0 c3 48 
+2025-10-28 16:04:02.543 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:02.543 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 31 5e 22 00 c1 d7 bb ea 5e 8b 95 b4 72 3a 36 b0 c1 f8 38 1b e0 c3 48 
+2025-10-28 16:04:02.543 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:02.658891] [0x00007f5040ff76c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:02.658908] [0x00007f5040ff76c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:02.850598] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:02.850615] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:02.850 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:02.850 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:02.850 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:02.850 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 32 b4 51 56 34 43 6f 2b c5 21 96 72 98 a7 2f ae 3b 4b 4b fa 7d 06 c8 
+2025-10-28 16:04:02.850 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:02.850 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 32 b4 51 56 34 43 6f 2b c5 21 96 72 98 a7 2f ae 3b 4b 4b fa 7d 06 c8 
+2025-10-28 16:04:02.850 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:02.854551] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:02.854578] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:02.854 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:02.854 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:02.854 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:02.854 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 33 6d 4f 76 ec b9 68 15 2a d4 7d 25 7d e9 39 02 ec b0 ef 80 1d ed 03 
+2025-10-28 16:04:02.854 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:02.854 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 33 6d 4f 76 ec b9 68 15 2a d4 7d 25 7d e9 39 02 ec b0 ef 80 1d ed 03 
+2025-10-28 16:04:02.854 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:02.856735] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:02.856752] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:02.856 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:02.856 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:02.856 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:02.856 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 34 f5 f2 67 47 a6 84 8a 2c 08 74 22 9a fc 10 f7 30 fb 56 80 58 a0 a4 
+2025-10-28 16:04:02.856 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:02.856 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 34 f5 f2 67 47 a6 84 8a 2c 08 74 22 9a fc 10 f7 30 fb 56 80 58 a0 a4 
+2025-10-28 16:04:02.856 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:02.908969] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:02.908988] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:02.912715] [0x00007f50427fa6c0] [info]    [OpenAuto] [AndroidAutoEntity] onPingRequest()
+[2025-10-28 16:04:02.956634] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:02.956655] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:02.956 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:02.956 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:02.956 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:02.956 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 35 f2 e6 fa c8 19 c4 4c c5 db 23 39 a9 d4 58 f1 1e 8d a4 e4 c7 22 f9 
+2025-10-28 16:04:02.956 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:02.956 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 35 f2 e6 fa c8 19 c4 4c c5 db 23 39 a9 d4 58 f1 1e 8d a4 e4 c7 22 f9 
+2025-10-28 16:04:02.956 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:02.967490] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:02.967508] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:02.967 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:02.967 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:02.967 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:02.967 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 36 83 63 bf da fc ce 35 f7 50 28 d0 0a 60 15 5a 07 85 1e ed 11 39 6a 
+2025-10-28 16:04:02.967 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:02.967 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 36 83 63 bf da fc ce 35 f7 50 28 d0 0a 60 15 5a 07 85 1e ed 11 39 6a 
+2025-10-28 16:04:02.967 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.081213] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.081233] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.081 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.081 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.081 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.081 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 37 a5 6e d5 1d 1e f7 15 2e b9 53 6c 23 eb df 8f 0f 02 8b ba 35 cd 66 
+2025-10-28 16:04:03.081 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.081 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 37 a5 6e d5 1d 1e f7 15 2e b9 53 6c 23 eb df 8f 0f 02 8b ba 35 cd 66 
+2025-10-28 16:04:03.081 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.128458] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.128477] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.128 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.128 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.128 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.128 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 38 a2 37 8d 34 7e b9 b2 87 ff 44 37 7f d3 da 2d df 92 ff 2e b4 ed a7 
+2025-10-28 16:04:03.128 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.128 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 38 a2 37 8d 34 7e b9 b2 87 ff 44 37 7f d3 da 2d df 92 ff 2e b4 ed a7 
+2025-10-28 16:04:03.128 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.153896] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.153928] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.153 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.153 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.153 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.154 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 39 ee b4 d1 2b a2 ae 9f d1 2f f4 fc ae d0 b8 e4 13 fa 97 8b 5a 9e eb 
+2025-10-28 16:04:03.154 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.154 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 39 ee b4 d1 2b a2 ae 9f d1 2f f4 fc ae d0 b8 e4 13 fa 97 8b 5a 9e eb 
+2025-10-28 16:04:03.154 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.159030] [0x00007f5040ff76c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:03.159042] [0x00007f5040ff76c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:03.198864] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.198882] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.198 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.198 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.198 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.198 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3a 97 2f b1 57 4e a0 ac 62 d1 1f c7 cd fa e2 ce f4 32 f2 fd 22 68 1a 
+2025-10-28 16:04:03.198 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.198 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3a 97 2f b1 57 4e a0 ac 62 d1 1f c7 cd fa e2 ce f4 32 f2 fd 22 68 1a 
+2025-10-28 16:04:03.198 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.282260] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.282282] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.282 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.282 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.282 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.282 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3b 31 cf 4a da 7b 33 de 8a 0c 67 12 30 7c 99 92 ce 90 c5 e3 8b f4 c3 
+2025-10-28 16:04:03.282 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.282 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3b 31 cf 4a da 7b 33 de 8a 0c 67 12 30 7c 99 92 ce 90 c5 e3 8b f4 c3 
+2025-10-28 16:04:03.282 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.293816] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.293850] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.293 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.293 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.293 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.293 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3c 0d 15 e2 e1 eb a7 55 16 af 55 bf a2 2e 1c 20 fe 68 1c 22 2d 27 e9 
+2025-10-28 16:04:03.293 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.293 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3c 0d 15 e2 e1 eb a7 55 16 af 55 bf a2 2e 1c 20 fe 68 1c 22 2d 27 e9 
+2025-10-28 16:04:03.293 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.339083] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.339101] [0x00007f50417f86c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.339 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.339 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.339 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.339 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3d bc df 5f 38 6c 4d ab b7 72 da 5a 71 82 d6 da 44 3f 03 0a c7 e9 66 
+2025-10-28 16:04:03.339 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.339 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3d bc df 5f 38 6c 4d ab b7 72 da 5a 71 82 d6 da 44 3f 03 0a c7 e9 66 
+2025-10-28 16:04:03.339 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.365683] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.365701] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.365 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.365 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.365 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.365 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3e fd f6 ea b1 bd a5 b6 c0 03 04 de 55 8f 28 95 34 99 01 08 fc c8 9b 
+2025-10-28 16:04:03.365 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.365 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3e fd f6 ea b1 bd a5 b6 c0 03 04 de 55 8f 28 95 34 99 01 08 fc c8 9b 
+2025-10-28 16:04:03.365 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.375245] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.375270] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.375 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.375 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.375 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.375 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3f de 3c e9 5d e7 da 17 e5 3d 01 6f c9 d3 2b ef 73 11 7d ab 0f 92 22 
+2025-10-28 16:04:03.375 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.375 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 3f de 3c e9 5d e7 da 17 e5 3d 01 6f c9 d3 2b ef 73 11 7d ab 0f 92 22 
+2025-10-28 16:04:03.375 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.408089] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.408105] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 40 69 83 6b 87 98 1f e9 86 56 61 eb 5d 7f f9 6b f3 0c f6 00 7f d4 4e 
+2025-10-28 16:04:03.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 40 69 83 6b 87 98 1f e9 86 56 61 eb 5d 7f f9 6b f3 0c f6 00 7f d4 4e 
+2025-10-28 16:04:03.408 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.409082] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:03.409093] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:03.437700] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.437718] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.437 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.437 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.437 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.437 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 41 bd 53 33 66 b7 ac 97 a0 fc 95 bd 4a d2 19 42 3c 1a 28 05 97 6a 93 
+2025-10-28 16:04:03.437 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.437 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 41 bd 53 33 66 b7 ac 97 a0 fc 95 bd 4a d2 19 42 3c 1a 28 05 97 6a 93 
+2025-10-28 16:04:03.437 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.467609] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.467640] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.467 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.467 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.467 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.467 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 42 eb 85 94 c5 e1 df 49 cd b2 7a ab 37 43 47 ca 1a 9e f8 45 2c f0 04 
+2025-10-28 16:04:03.467 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.467 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 42 eb 85 94 c5 e1 df 49 cd b2 7a ab 37 43 47 ca 1a 9e f8 45 2c f0 04 
+2025-10-28 16:04:03.467 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.508517] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.508534] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.508 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.508 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.508 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.508 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 43 57 36 6c 77 0f c8 eb 5a c3 c4 78 b0 06 3d c8 8f f3 04 cc 14 07 f8 
+2025-10-28 16:04:03.508 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.508 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 43 57 36 6c 77 0f c8 eb 5a c3 c4 78 b0 06 3d c8 8f f3 04 cc 14 07 f8 
+2025-10-28 16:04:03.508 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.522412] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.522429] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.522 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.522 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.522 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.522 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 44 95 c4 e8 35 a2 db ef 72 14 df d3 f2 7b d4 8b b0 a5 2f 03 94 1b 7d 
+2025-10-28 16:04:03.522 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.522 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 44 95 c4 e8 35 a2 db ef 72 14 df d3 f2 7b d4 8b b0 a5 2f 03 94 1b 7d 
+2025-10-28 16:04:03.522 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.602210] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.602240] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.602 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.602 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.602 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.602 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 45 ff 85 6c 54 0a 2f 2b f3 80 bd 19 ef 73 5f 6b 34 cd 26 70 d6 f6 10 
+2025-10-28 16:04:03.602 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.602 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 45 ff 85 6c 54 0a 2f 2b f3 80 bd 19 ef 73 5f 6b 34 cd 26 70 d6 f6 10 
+2025-10-28 16:04:03.602 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.605195] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.605208] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.605 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.605 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.605 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.605 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 46 75 fe 2f ec 28 1c e6 b0 8a a8 91 b5 fc 1f 41 e9 52 b4 bc d4 da 74 
+2025-10-28 16:04:03.605 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.605 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 46 75 fe 2f ec 28 1c e6 b0 8a a8 91 b5 fc 1f 41 e9 52 b4 bc d4 da 74 
+2025-10-28 16:04:03.605 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.624832] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.624847] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.624 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.624 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.624 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.624 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 47 0c fd bf 54 a3 f8 ad 65 e2 43 bc 6f c1 14 14 d9 a9 51 54 cd f4 f7 
+2025-10-28 16:04:03.624 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.624 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 47 0c fd bf 54 a3 f8 ad 65 e2 43 bc 6f c1 14 14 d9 a9 51 54 cd f4 f7 
+2025-10-28 16:04:03.624 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.659151] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] sensorPolling()
+[2025-10-28 16:04:03.659179] [0x00007f5041ff96c0] [info]    [OpenAuto] [SensorService] is_file_exist()
+[2025-10-28 16:04:03.675927] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.675942] [0x00007f5040ff76c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.675 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.676 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.676 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.676 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 48 10 94 27 75 01 fa 9d 97 d7 de 89 9c 0f b9 48 f4 58 9f 18 25 32 0f 
+2025-10-28 16:04:03.676 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.676 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 48 10 94 27 75 01 fa 9d 97 d7 de 89 9c 0f b9 48 f4 58 9f 18 25 32 0f 
+2025-10-28 16:04:03.676 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.679120] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.679132] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 49 9e a2 c6 56 de 32 5c 2e 64 8b e8 34 22 52 ed 68 7a a0 42 74 3b f2 
+2025-10-28 16:04:03.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 49 9e a2 c6 56 de 32 5c 2e 64 8b e8 34 22 52 ed 68 7a a0 42 74 3b f2 
+2025-10-28 16:04:03.679 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.695283] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.695299] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.695 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.695 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.695 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.695 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 4a 42 d2 56 a1 c3 ba 0c f5 f6 ad d6 38 4f 76 fd a2 59 28 75 36 f0 7d 
+2025-10-28 16:04:03.695 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.695 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 4a 42 d2 56 a1 c3 ba 0c f5 f6 ad d6 38 4f 76 fd a2 59 28 75 36 f0 7d 
+2025-10-28 16:04:03.695 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.737354] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.737383] [0x00007f5041ff96c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.737 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.737 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.737 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.737 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 4b 90 3f a7 a3 ee 46 37 2b f9 ea df 5d 43 6a 01 e4 4b b5 51 5f d5 da 
+2025-10-28 16:04:03.737 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.737 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 4b 90 3f a7 a3 ee 46 37 2b f9 ea df 5d 43 6a 01 e4 4b b5 51 5f d5 da 
+2025-10-28 16:04:03.737 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.763673] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] onMediaWithTimestampIndication()
+[2025-10-28 16:04:03.763690] [0x00007f50427fa6c0] [debug]   [OpenAuto] [VideoMediaSinkService] Channel Id: MEDIA_SINK_VIDEO, session: 0
+2025-10-28 16:04:03.763 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] hexSend: 80 04 08 00 10 01 
+2025-10-28 16:04:03.763 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] payload size: 6
+2025-10-28 16:04:03.763 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Channel::send] channel: 3
+2025-10-28 16:04:03.763 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 4c a7 36 a4 5e 7a 35 d4 07 d1 99 3f 81 87 d0 25 9f 5d 3f 51 56 3a 5e 
+2025-10-28 16:04:03.763 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [Transport::send] data size: 39
+2025-10-28 16:04:03.763 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] hexSend: 03 0b 00 23 17 03 03 00 1e dc a5 c9 b9 6f 27 b7 4c a7 36 a4 5e 7a 35 d4 07 d1 99 3f 81 87 d0 25 9f 5d 3f 51 56 3a 5e 
+2025-10-28 16:04:03.763 [32m[INFO][0m [1;37m[GENERAL][0m [AASDK:] - [AASDK] [TCPEndpoint::send] buffer size: 39
+[2025-10-28 16:04:03.799467] [0x00007f50427fa6c0] [fatal]   [OpenAuto] [AndroidAutoEntity] onChannelError(): AASDK Error: 33, Native Code: 2
+[2025-10-28 16:04:03.799483] [0x00007f50427fa6c0] [info]    [OpenAuto] [AndroidAutoEntity] triggerQuit()
+[2025-10-28 16:04:03.799490] [0x00007f5041ff96c0] [error]   [OpenAuto] [InputSourceService] onChannelError(): AASDK Error: 33, Native Code: 2
+[2025-10-28 16:04:03.799503] [0x00007f5040ff76c0] [error]   [OpenAuto] [VideoMediaSinkService] onChannelError(): AASDK Error: 33, Native Code: 2, channel: MEDIA_SINK_VIDEO
+[2025-10-28 16:04:03.799516] [0x00007f50417f86c0] [error]   [OpenAuto] [SensorService] onChannelError(): AASDK Error: 33, Native Code: 2
+[2025-10-28 16:04:03.799528] [0x00007f50427fa6c0] [info]    [OpenAuto] [App] onAndroidAutoQuit()
+[2025-10-28 16:04:03.799531] [0x00007f50417f86c0] [error]   [OpenAuto] [AudioMediaSinkService] onChannelError(): AASDK Error: 33, Native Code: 2, channel: MEDIA_SINK_MEDIA_AUDIO
+[2025-10-28 16:04:03.799534] [0x00007f50427fa6c0] [info]    [OpenAuto] [AndroidAutoEntity] stop()
+[2025-10-28 16:04:03.799541] [0x00007f5040ff76c0] [error]   [OpenAuto] [AudioMediaSinkService] onChannelError(): AASDK Error: 33, Native Code: 2, channel: MEDIA_SINK_GUIDANCE_AUDIO
+[2025-10-28 16:04:03.799548] [0x00007f5041ff96c0] [error]   [OpenAuto] [AudioMediaSinkService] onChannelError(): AASDK Error: 33, Native Code: 2, channel: MEDIA_SINK_SYSTEM_AUDIO
+[2025-10-28 16:04:03.799556] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] stop()
+[2025-10-28 16:04:03.799574] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel MEDIA_SINK_MEDIA_AUDIO
+[2025-10-28 16:04:03.799580] [0x00007f5040ff76c0] [error]   [OpenAuto] [MediaSourceService] onChannelError(): AASDK Error: 33, Native Code: 2
+[2025-10-28 16:04:03.799585] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] stop()
+[2025-10-28 16:04:03.799590] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel MEDIA_SINK_GUIDANCE_AUDIO
+[2025-10-28 16:04:03.799595] [0x00007f50417f86c0] [error]   [OpenAuto] [BluetoothService] onChannelError(): AASDK Error: 33, Native Code: 2
+[2025-10-28 16:04:03.799603] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] stop()
+[2025-10-28 16:04:03.799606] [0x00007f50427fa6c0] [info]    [OpenAuto] [AudioMediaSinkService] Channel MEDIA_SINK_SYSTEM_AUDIO
+[2025-10-28 16:04:03.799613] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] stop()
+[2025-10-28 16:04:03.799616] [0x00007f50427fa6c0] [info]    [OpenAuto] [VideoMediaSinkService] Channel MEDIA_SINK_VIDEO
+[2025-10-28 16:04:03.799623] [0x00007f50427fa6c0] [info]    [OpenAuto] [MediaSourceService] stop()
+[2025-10-28 16:04:03.799630] [0x00007f50427fa6c0] [info]    [OpenAuto] [SensorService] stop()
+[2025-10-28 16:04:03.799636] [0x00007f50427fa6c0] [info]    [OpenAuto] [InputSourceService] stop()
+[2025-10-28 16:04:03.799639] [0x00007f50427fa6c0] [info]    [OpenAuto] [InputDevice] stop()
+[2025-10-28 16:04:03.799647] [0x00007f50427fa6c0] [info]    [OpenAuto] [BluetoothService] stop()
+[2025-10-28 16:04:03.799808] [0x00007f50427fa6c0] [info]    [OpenAuto] [App] Waiting for device...
+[2025-10-28 16:04:03.799838] [0x00007f50427fa6c0] [info]    [OpenAuto] startServerSocket() - Listening for WIFI Clients on Port 5001
+[2025-10-28 16:04:03.799864] [0x00007f50427fa6c0] [debug]   [OpenAuto] [AndroidAutoEntity] destroy.
+[2025-10-28 16:04:03.799876] [0x00007f50417f86c0] [error]   [OpenAuto] [App] onUSBHubError(): AASDK Error: 30, Native Code: 0
+[2025-10-28 16:04:03.909239] [0x00007f5040ff76c0] [info]    [OpenAuto] [SensorService] sensorPolling()

@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package common;
+
+option java_outer_classname = "Common";
+option java_package = "com.google.android.projection.proto";
+
+message PhoneInfo {
+    optional string instance_id = 1;
+    optional string connectivity_lifetime_id = 2;
+}

@@ -214,42 +214,26 @@ module.exports = class aasdk_protobuf {
         const encoded = this.ServiceDiscoveryResponse.encode(serviceDiscoveryResponse).finish();
         return encoded;
     }
-    encodePingResponse(pingPayload) {
+    encodePingResponse(buffer) {
+        // Decodificar como PingRequest
         try {
-            console.log('🔍 Analizando PingRequest payload:', pingPayload.toString('hex'));
+            const pingRequest = this.PingRequest.decode(buffer);
+            console.log('PingRequest decodificado:', pingRequest);
+            console.log('Timestamp:', pingRequest.timestamp);
+            console.log('Bug report:', pingRequest.bug_report);
             
-            // El formato real del PingRequest en Android Auto es diferente
-            // Según el log: f9ffffffffffffffff01
-            // Esto parece ser un timestamp de 8 bytes + flags
+            // Crear respuesta
+            const pingResponse = this.PingResponse.create({
+                timestamp: pingRequest.timestamp.getTime()
+            });
             
-            if (pingPayload.length >= 8) {
-                // Extraer timestamp (primeros 8 bytes)
-                const timestampBuffer = pingPayload.slice(0, 8);
-                
-                // Crear PingResponse con el mismo timestamp
-                const pingResponse = this.PingResponse.create({
-                    timestamp: this.bufferToBigInt(timestampBuffer)
-                });
-                
-                const encoded = this.PingResponse.encode(pingResponse).finish();
-                console.log('✅ PingResponse codificado:', encoded.toString('hex'));
-                return encoded;
-            } else {
-                console.log('⚠️ PingRequest muy corto, usando fallback');
-                // Fallback: crear PingResponse con timestamp actual
-                const pingResponse = this.PingResponse.create({
-                    timestamp: BigInt(Date.now())
-                });
-                return this.PingResponse.encode(pingResponse).finish();
-            }
+            const encodedResponse = this.PingResponse.encode(pingResponse).finish();
+            console.log('PingResponse codificado:', encodedResponse.toString('hex'));
+            
+            return encodedResponse;
             
         } catch (error) {
-            console.error('❌ Error codificando PingResponse:', error);
-            // Fallback seguro
-            const pingResponse = this.PingResponse.create({
-                timestamp: BigInt(Date.now())
-            });
-            return this.PingResponse.encode(pingResponse).finish();
+            console.error('Error decodificando PingRequest:', error);
         }
     }
     encodePingRequest() {
@@ -291,24 +275,6 @@ module.exports = class aasdk_protobuf {
             if (pingPayload.length > 8) {
                 console.log('  - Bytes adicionales:', Array.from(pingPayload.slice(8)));
             }
-        }
-    }
-    encodePingResponse(pingPayload) {
-        try {
-            // Decodificar el PingRequest recibido
-            const pingRequest = this.PingRequest.decode(pingPayload);
-            console.log(`🏓 PingRequest recibido - timestamp: ${pingRequest.timestamp}`);
-            
-            // Crear PingResponse con el mismo timestamp
-            const pingResponse = this.PingResponse.create({
-                timestamp: pingRequest.timestamp
-            });
-            
-            return this.PingResponse.encode(pingResponse).finish();
-        } catch (error) {
-            console.error('❌ Error codificando PingResponse:', error);
-            // Fallback: devolver el mismo payload
-            return pingPayload;
         }
     }
 

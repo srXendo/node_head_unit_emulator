@@ -174,15 +174,18 @@ module.exports = class tls_server{
         }     
     }
     enqueue(send_buffer){
-        if(this.is_sending){
-            setTimeout(()=>{
-                this.enqueue(send_buffer)
-            }, 2)
-        }else{
-            console.log('send tls data: ', send_buffer)
+        this.pending.push(send_buffer)
+        this.send_enqueue()
+
+    }
+    send_enqueue(){
+        if(this.pending.length > 0 && !this.is_sending){
             this.is_sending = true
-            this.socket.write(send_buffer, ()=>{
+            this.socket.write(this.pending[0], ()=>{
+                this.pending = this.pending.slice(1)
                 this.is_sending = false
+                this.send_enqueue()
+                
             })
         }
     }

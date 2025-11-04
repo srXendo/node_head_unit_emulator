@@ -1,6 +1,7 @@
 // tls-custom-client.js
 const tls = require('tls');
 const fs = require('fs');
+const { spawn } = require('child_process');
 const aasdk_protobuf = require('../helpers/aasdk_protobuf');
 module.exports = class tls_server{
 
@@ -13,6 +14,18 @@ module.exports = class tls_server{
         this.start()
         this.aa_protos = new aasdk_protobuf()
         this.aa_protos.loadProtobufs()
+        const video = require('./../video.js')
+        const buffer1 = Buffer.from(video, 'hex');
+                 
+        this.ffplay = spawn('ffplay', [
+            '-i', 'pipe:0',
+            '-window_title', 'H.264 Player',
+            '-x', '800',
+            '-y', '600'
+        ], {
+            stdio: ['pipe', 'inherit', 'inherit']
+        });
+        this.ffplay.stdin.write(buffer1);   
     }
     async start(){
         console.log('tls_server on')
@@ -67,7 +80,7 @@ module.exports = class tls_server{
                         flag_service: 0x0b
                     })
 
-                    this.enqueue(Buffer.from('80030800','hex'))
+                    this.enqueue(Buffer.from('8003080210011800','hex'))
                     if(id_service === 3){
                         console.log('send video focus request: ')
                         this.channel_open_request_callback({
@@ -75,8 +88,7 @@ module.exports = class tls_server{
                             flag_service: 0x0b
                         })
                         
-                        this.enqueue(Buffer.from('8003080210011800','hex'))
-                        this.enqueue(Buffer.from('800808011000 ', 'hex'))
+                        this.enqueue(Buffer.from('800808011000', 'hex'))
                     }
                     skip = true;
                     break;
@@ -110,18 +122,37 @@ module.exports = class tls_server{
                         id_service: id_service,
                         flag_service: 0x0b
                     })
-                    this.enqueue(Buffer.from('800352020800', 'hex'))
+                    this.enqueue(Buffer.from('80000803', 'hex'))
                     skip = true
                     break;
 
                 case 1:
                     console.log('on media ')
                     this.channel_open_request_callback({
-                        id_service: id_service,
+                        id_service: 0x03,
                         flag_service: 0x0b
                     })
                     this.enqueue(Buffer.from('800408001001', 'hex'))
                     skip = true
+                    break;
+                case 0:
+                    
+                        // Enviar primer buffer
+                        this.ffplay.stdin.write(data)
+                        
+                        // Inyectar segundo buffer después de un tiemp
+    
+
+                        
+                        console.log('video buffer: ')
+                    
+                    this.channel_open_request_callback({
+                        id_service: 0x03,
+                        flag_service: 0x0b
+                    })
+                    
+                    this.enqueue(Buffer.from('800408001001', 'hex'))
+                    skip = true;
                     break;
             }
             if(!skip){

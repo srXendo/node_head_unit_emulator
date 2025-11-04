@@ -219,12 +219,12 @@ module.exports = class aasdk_protobuf {
         try {
             const pingRequest = this.PingRequest.decode(buffer);
             console.log('PingRequest decodificado:', pingRequest);
-            console.log('Timestamp:', pingRequest.timestamp);
+            console.log('Timestamp:', );
             console.log('Bug report:', pingRequest.bug_report);
             
             // Crear respuesta
             const pingResponse = this.PingResponse.create({
-                timestamp: pingRequest.timestamp.getTime()
+                timestamp: new Date()
             });
             
             const encodedResponse = this.PingResponse.encode(pingResponse).finish();

@@ -1,274 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pipeline de Video - Similar OMX</title>
-</head>
+<html>
 <body>
-    <h1>Pipeline de Video Avanzado</h1>
-    
-    <div>
-        <video id="videoOutput" controls width="800" height="450">
-            <source src="http://localhost:3000/sample.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento video.
-        </video>
-    </div>
-    
-    <div>
-        <button onclick="videoPipeline.start()">Iniciar Pipeline</button>
-        <button onclick="videoPipeline.stop()">Detener Pipeline</button>
-        <button onclick="videoPipeline.pause()">Pausar</button>
-        <button onclick="videoPipeline.resume()">Reanudar</button>
-    </div>
-    
-    <div>
-        <h3>Estado del Pipeline:</h3>
-        <p id="pipelineState">No inicializado</p>
-        <p id="bufferStatus">Buffer: 0%</p>
-        <p id="decoderStatus">Decoder: Inactivo</p>
-        <p id="rendererStatus">Renderer: Inactivo</p>
-    </div>
+    <h2>H.264 Player</h2>
+    <input type="file" id="fileInput" accept=".txt" />
+    <button onclick="playH264()">Play H.264</button>
+    <div id="status"></div>
+    <video id="videoPlayer" controls width="640" height="360"></video>
 
     <script>
-        class VideoPipeline {
-            constructor() {
-                this.video = document.getElementById('videoOutput');
-                this.isActive = false;
-                this.portSettingsChanged = false;
-                this.components = {
-                    decoder: { state: 'loaded', buffer: [] },
-                    renderer: { state: 'loaded' },
-                    clock: { state: 'loaded' },
-                    scheduler: { state: 'loaded' }
-                };
-                this.tunnels = {
-                    decoderToScheduler: { connected: false },
-                    schedulerToRenderer: { connected: false },
-                    clockToScheduler: { connected: false }
-                };
-                
-                this.initializeEvents();
+        async function playH264() {
+            const file = document.getElementById('fileInput').files[0];
+            if (!file) return;
+            
+            const text = await file.text();
+            const hex = text.replace(/[^0-9A-Fa-f]/g, '');
+            const buffer = new Uint8Array(hex.length / 2);
+            
+            for (let i = 0; i < buffer.length; i++) {
+                buffer[i] = parseInt(hex.substr(i * 2, 2), 16);
             }
-
-            initializeEvents() {
-                // Eventos del video
-                this.video.addEventListener('loadstart', () => this.onLoadStart());
-                this.video.addEventListener('progress', () => this.onProgress());
-                this.video.addEventListener('canplay', () => this.onCanPlay());
-                this.video.addEventListener('playing', () => this.onPlaying());
-                this.video.addEventListener('waiting', () => this.onWaiting());
-                this.video.addEventListener('ended', () => this.onEnded());
-                
-                // Eventos personalizados para simular OMX
-                this.video.addEventListener('timeupdate', () => this.onTimeUpdate());
-            }
-
-            // Simular creación de componentes como en OMX
-            createComponents() {
-                console.log("[VideoPipeline] Creando componentes...");
-                
-                // Simular video_decode component
-                this.components.decoder.state = 'idle';
-                this.updateStatus('decoderStatus', 'Decoder: Creado');
-                
-                // Simular video_render component
-                this.components.renderer.state = 'idle';
-                this.updateStatus('rendererStatus', 'Renderer: Creado');
-                
-                // Simular clock component
-                this.components.clock.state = 'executing';
-                
-                // Simular video_scheduler component
-                this.components.scheduler.state = 'idle';
-                
-                return true;
-            }
-
-            // Simular setup de tunnels
-            setupTunnels() {
-                console.log("[VideoPipeline] Configurando tunnels...");
-                
-                this.tunnels.clockToScheduler.connected = true;
-                this.tunnels.decoderToScheduler.connected = true;
-                this.tunnels.schedulerToRenderer.connected = true;
-                
-                return true;
-            }
-
-            // Simular enable port buffers
-            enablePortBuffers() {
-                console.log("[VideoPipeline] Habilitando buffers...");
-                this.components.decoder.state = 'idle';
-                return true;
-            }
-
-            // Iniciar el pipeline completo
-            start() {
-                if (this.isActive) {
-                    console.log("[VideoPipeline] Ya está activo");
-                    return;
-                }
-
-                console.log("[VideoPipeline] Iniciando pipeline...");
-                this.updateStatus('pipelineState', 'Inicializando...');
-
-                // Simular el proceso de inicialización OMX
-                if (!this.createComponents()) {
-                    this.updateStatus('pipelineState', 'Error en creación de componentes');
-                    return;
-                }
-
-                if (!this.setupTunnels()) {
-                    this.updateStatus('pipelineState', 'Error en configuración de tunnels');
-                    return;
-                }
-
-                if (!this.enablePortBuffers()) {
-                    this.updateStatus('pipelineState', 'Error en habilitación de buffers');
-                    return;
-                }
-
-                // Cambiar estados como en OMX
-                this.components.decoder.state = 'executing';
-                this.components.scheduler.state = 'executing';
-                this.components.renderer.state = 'executing';
-
-                this.isActive = true;
-                this.portSettingsChanged = true;
-
-                this.updateStatus('pipelineState', 'Pipeline Activo');
-                this.updateStatus('decoderStatus', 'Decoder: Ejecutando');
-                this.updateStatus('rendererStatus', 'Renderer: Ejecutando');
-
-                // Iniciar reproducción
-                this.video.play().catch(error => {
-                    console.error("[VideoPipeline] Error al reproducir:", error);
-                });
-            }
-
-            // Detener el pipeline
-            stop() {
-                console.log("[VideoPipeline] Deteniendo pipeline...");
-                
-                this.isActive = false;
-                this.video.pause();
-                this.video.currentTime = 0;
-                
-                // Simular limpieza de componentes
-                this.components.decoder.state = 'loaded';
-                this.components.renderer.state = 'loaded';
-                this.components.scheduler.state = 'loaded';
-                this.components.clock.state = 'loaded';
-                
-                this.tunnels.clockToScheduler.connected = false;
-                this.tunnels.decoderToScheduler.connected = false;
-                this.tunnels.schedulerToRenderer.connected = false;
-                
-                this.updateStatus('pipelineState', 'Pipeline Detenido');
-                this.updateStatus('decoderStatus', 'Decoder: Inactivo');
-                this.updateStatus('rendererStatus', 'Renderer: Inactivo');
-                this.updateStatus('bufferStatus', 'Buffer: 0%');
-            }
-
-            pause() {
-                if (this.isActive) {
-                    this.video.pause();
-                    this.updateStatus('pipelineState', 'Pipeline Pausado');
-                }
-            }
-
-            resume() {
-                if (this.isActive) {
-                    this.video.play();
-                    this.updateStatus('pipelineState', 'Pipeline Activo');
-                }
-            }
-
-            // Simular escritura de buffers como en OMX
-            writeData(timestamp, buffer) {
-                if (!this.isActive) return;
-
-                // Simular el proceso de OMX_EmptyThisBuffer
-                console.log(`[VideoPipeline] Escribiendo buffer, timestamp: ${timestamp}`);
-                
-                if (!this.portSettingsChanged) {
-                    // Simular port settings changed event
-                    this.portSettingsChanged = true;
-                    console.log("[VideoPipeline] Port settings changed");
-                }
-            }
-
-            // Handlers de eventos
-            onLoadStart() {
-                console.log("[VideoPipeline] Carga iniciada");
-                this.updateStatus('pipelineState', 'Cargando video...');
-            }
-
-            onProgress() {
-                if (this.video.buffered.length > 0) {
-                    const bufferedEnd = this.video.buffered.end(this.video.buffered.length - 1);
-                    const duration = this.video.duration;
-                    if (duration > 0) {
-                        const percentage = (bufferedEnd / duration) * 100;
-                        this.updateStatus('bufferStatus', `Buffer: ${percentage.toFixed(1)}%`);
-                    }
-                }
-            }
-
-            onCanPlay() {
-                console.log("[VideoPipeline] Video puede reproducirse");
-                this.updateStatus('pipelineState', 'Listo para reproducir');
-            }
-
-            onPlaying() {
-                console.log("[VideoPipeline] Reproduciendo");
-                this.updateStatus('pipelineState', 'Reproduciendo');
-            }
-
-            onWaiting() {
-                console.log("[VideoPipeline] Esperando datos...");
-                this.updateStatus('pipelineState', 'Buffering...');
-            }
-
-            onEnded() {
-                console.log("[VideoPipeline] Reproducción finalizada");
-                this.updateStatus('pipelineState', 'Finalizado');
-            }
-
-            onTimeUpdate() {
-                // Simular el clock component actualizando el tiempo
-                if (this.isActive) {
-                    // Podríamos simular más lógica aquí relacionada con la sincronización
-                }
-            }
-
-            updateStatus(elementId, message) {
-                const element = document.getElementById(elementId);
-                if (element) {
-                    element.textContent = message;
-                }
-            }
+            
+            const blob = new Blob([buffer], { type: 'video/mp4' });
+            const url = URL.createObjectURL(blob);
+            document.getElementById('videoPlayer').src = url;
+            document.getElementById('status').textContent = 'Playing H.264 as MP4';
         }
-
-        // Inicializar el pipeline cuando se carga la página
-        const videoPipeline = new VideoPipeline();
-
-        // Simular el proceso de escritura de datos (como en el método write del código C++)
-        function simulateDataWrite() {
-            setInterval(() => {
-                if (videoPipeline.isActive && videoPipeline.video.readyState > 0) {
-                    // Simular escritura de buffers periódicamente
-                    const currentTime = videoPipeline.video.currentTime * 1000000; // Convertir a microsegundos
-                    videoPipeline.writeData(currentTime, new ArrayBuffer(1024));
-                }
-            }, 100);
-        }
-
-        // Iniciar simulación cuando la página carga
-        window.addEventListener('load', () => {
-            simulateDataWrite();
-        });
     </script>
 </body>
 </html>

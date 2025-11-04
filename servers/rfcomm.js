@@ -35,7 +35,7 @@ module.exports = class rfcommServer {
 
 
             }else{
-                this.sendVersionRequest();
+                this.sendPairingResponse();
             }
 
         }, (error) => {
@@ -65,12 +65,13 @@ module.exports = class rfcommServer {
                     break;
                     case 6:
                         console.log(this.C_PROTO.root.lookupType('UserSwitchResponse').decode(message.payload))
-                        setTimeout(()=>{
-                            //t//his.sendPairingResponse()
-                        }, 3000)
+
+                            //this.sendPairingResponse()
+
 
                     break;
                     case 7:
+                        //this.sendPairingResponse()
                         setTimeout(()=>{
                             //this.sendPairingResponse()
                         }, 3000)
@@ -142,7 +143,7 @@ module.exports = class rfcommServer {
     sendWifiStartRequest(){
         try {
 
-            const ip = "192.168.1.128";
+            const ip = "192.168.1.131";
             const port = 0x8827; // 0x8827
             //001200010a0d3139322e3136382e3235342e31108827ef
             //001200010a0d3139322e3136382e312e313238108827

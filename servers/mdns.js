@@ -1,7 +1,7 @@
 const tls_server = require("./tls_server");
 const net = require('net');
 const C_PROTO = require('../helpers/aasdk_protobuf')
-const ip_client = `::ffff:192.168.1.132`
+const ip_client = `::ffff:192.168.1.134`
 module.exports = class MdnsServer{
     waiting_response = [];
     constructor(){
@@ -32,9 +32,6 @@ module.exports = class MdnsServer{
 
         this.waiting_response.push(id_service)
         console.log('channel_open_request_receive', id_service)
-    }
-    channel_open_request_get_last(){
-        
     }
     handleClientConnection(socket){
         try{
@@ -68,79 +65,110 @@ module.exports = class MdnsServer{
             console.error(new Error(err.stack))
         }
     }
-    handleClientDataMovil(socket, data){
-        
-        const message = this.parseMessage(data)
-        console.log('handleClientDataMovil()', message.id_message)
-        if(this.splited_data){
-            this.splited_data.data = Buffer.concat([this.splited_data.data, data]),
-            this.splited_data.payloadNowLength = this.splited_data.payloadNowLength + data.length
+    handleClientDataMovil(socket, data2){
+        const splited = this.split_multipayload(data2)
 
-            console.log('splitted data: ', this.splited_data.payloadLength)
-            if(this.splited_data.payloadLength === this.splited_data.payloadNowLength){
-                this.tls_socket.write(this.splited_data.data, ()=>{
-                    this.splited_data = false
-                })
-
-            }
+        for(let row of splited){
             
-        }else{
-            if(data.readUint8(3) === 8){
-                console.log('send tls_socket', this.add_head_handshack(this.helloClient).toString('hex'))
-                socket.write(this.add_head_handshack(this.helloClient))
-            }else{
-                switch(message.id_message){
-                    case 0x02:
-                        //const clientHello = this.createEncapsulatedSSL();
+            const data = row.row
+            let message = this.parseMessage(data)
+            console.log('handleClientDataMovil()', message.id_message)
+            if(this.splited_data){
+                this.splited_data.data = Buffer.concat([this.splited_data.data, data]),
+                this.splited_data.payloadNowLength = this.splited_data.payloadNowLength + data.length
+
+                console.log('splitted data: ', this.splited_data.payloadLength, this.splited_data.payloadNowLength)
+                if(this.splited_data.payloadLength <= this.splited_data.payloadNowLength){
+                    const residues =  this.splited_data.payloadNowLength - this.splited_data.payloadLength
+                    this.splited_data.payloadNowLength = this.splited_data.payloadLength
+                    this.splited_data.data = this.splited_data.data.slice(0, this.splited_data.payloadLength)
+                    console.log('send splitted data: ', this.splited_data.data, this.splited_data.data.slice(4))
+                    this.tls_socket.write(this.splited_data.data.slice(4), ()=>{
                         
+                    })
+                    this.splited_data = false
 
-
-
-                        break;
-                    case 0x03:
-                        if(data.readUint8(6) === 0x14){
-                            console.log('send hu to movil check: ', '0003000400040800')
-
-                            this.tls_socket.write(data.slice(6, data.length));
-                            socket.write(Buffer.from('0003000400040800', 'hex'))
-
+                }
+                
+            }else{
+                message = this.parseMessage(data)
+                if(data.readUint8(3) === 8){
+                    console.log('send tls_socket', this.add_head_handshack(this.helloClient).toString('hex'))
+                    socket.write(this.add_head_handshack(this.helloClient))
+                }else{
+                    const data_payloadlength = data.readUint16BE(2)
+                    console.log('data_payloadlength > data.slice(4).length: 2345: ', data_payloadlength > data.slice(4).length, data_payloadlength, data.slice(4).length)
+                    
+                    if(splited.length > 1){
+                        console.log('multipayload')
+                    }
+                    switch(message.id_message){
+                        case 0x02:
+                            //const clientHello = this.createEncapsulatedSSL();
                             
-                        }else{
-                            
-                            this.tls_socket.write(data.slice(6, data.length));
 
 
-                        }
-                        break;
-                    case 5891:
 
-                            console.log('openChannel Request')
-                            const splited = this.split_multipayload(data)
-                            if(splited.length > 1){
-                                console.log('multipayload')
+                            break;
+                        case 0x03:
+                            if(data.readUint8(6) === 0x14){
+                                console.log('send hu to movil check: ', '0003000400040800')
+
+                                this.tls_socket.write(data.slice(6, data.length));
+                                socket.write(Buffer.from('0003000400040800', 'hex'))
+
+                                
+                            }else{
+                                
+                                this.tls_socket.write(data.slice(6, data.length));
+
+
                             }
-                            console.log('splited', splited.length)
-                            for(let row of splited){
+                            break;
+                        case 5891:
+
+                                console.log('openChannel Request')
+
+                        
+                        case 2346:
+
+                            console.log('splited', splited)
+                            
+                            if(data_payloadlength > data.slice(4).length){
+                                this.splited_data = {
+                                    data: data,
+                                    payloadLength: data_payloadlength,
+                                    payloadNow: data.slice(4),
+                                    payloadNowLength: data.slice(4).length
+                                }
+                            }else{
+                                this.send_open_channel(row.row.readUint8(0), row.row)
+                            }
+                        
+                            
+                            //socket.write(Buffer.from('000b0111170303010caa58cee50637f188f83762a9a974502c778c6ae1b398ce1e87a0793c58a6448b1cd602b990fb2f1d0c63d3f67cbd9fc1200310e6526a2c7e25664cb9e28d018ca3db376b65d21b93cd2c570ccba34511efebffef20839a2bfc375b01a730fb23d8d365731dd4a24dd783e01e4195a7b752ddb1e88bd9aeb7f56a21b50a26ad6767372b664935f5290911f0d10faee8b1747b95642b596246e5877bbc30fbc198ffb26afa7c8b22b8726d58213d4f672dcd8b9e54fae5e220ab32d38664b9c0d1aee45550dd61c6902a5b8f89d996463fd287eb3000951240b3378786b61e8fedb03962b5b45b3643fba5c586651fa850ab1f1ae06c1c179542366691233796e9ee2e241ad017563b8e9f4b52','hex'))
+                        break;
+                        case 0:
+                            const data_payloadlength2 = data.readUint16BE(2)
+                            console.log('data_payloadlength > data.slice(4).length 00 : ', data_payloadlength2 > data.slice(4).length)
+
+                            if(data_payloadlength2 > data.slice(4).length){
+                                this.splited_data = {
+                                    data: data,
+                                    payloadLength: data_payloadlength2,
+                                    payloadNow: data.slice(4),
+                                    payloadNowLength: data.slice(4).length
+                                }
+                            }else{
                                 this.send_open_channel(row.row.readUint8(0), row.row)
                             }
                             
-                    
-                    case 2346:
-                        
-                        const data_payloadlength = data.readUint16BE(2)
-                        if(data_payloadlength > data.slice(4).length){
-                            this.splited_data = {
-                                data: data,
-                                payloadLength: data_payloadlength,
-                                payloadNow: data.slice(4),
-                                payloadNowLength: data.slice(4).length
-                            }
-                        }
-                        //socket.write(Buffer.from('000b0111170303010caa58cee50637f188f83762a9a974502c778c6ae1b398ce1e87a0793c58a6448b1cd602b990fb2f1d0c63d3f67cbd9fc1200310e6526a2c7e25664cb9e28d018ca3db376b65d21b93cd2c570ccba34511efebffef20839a2bfc375b01a730fb23d8d365731dd4a24dd783e01e4195a7b752ddb1e88bd9aeb7f56a21b50a26ad6767372b664935f5290911f0d10faee8b1747b95642b596246e5877bbc30fbc198ffb26afa7c8b22b8726d58213d4f672dcd8b9e54fae5e220ab32d38664b9c0d1aee45550dd61c6902a5b8f89d996463fd287eb3000951240b3378786b61e8fedb03962b5b45b3643fba5c586651fa850ab1f1ae06c1c179542366691233796e9ee2e241ad017563b8e9f4b52','hex'))
-                    break;
-                    default:
-                        console.error(new Error('message id no identificado: '+message.id_message, ));
-                        
+
+                        break;
+                        default:
+                            console.error(new Error('message id no identificado: '+message.id_message, ));
+                            
+                    }
                 }
             }
         }
@@ -157,7 +185,6 @@ module.exports = class MdnsServer{
         }
     }
     send_open_channel(id_channel, data){
-
         this.tls_socket.write(data.slice(4))
     }
     handleClientDataTls(socket, data2){
